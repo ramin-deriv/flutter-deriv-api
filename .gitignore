@@ -19,7 +19,7 @@ lib/basic_api/generated/*.json
 .vscode/
 
 # Flutter/Dart/Pub related
-**/doc/api/
+#**/doc/api/
 .dart_tool/
 .flutter-plugins
 .packages
