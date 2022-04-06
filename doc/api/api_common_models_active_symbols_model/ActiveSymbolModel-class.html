@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the ActiveSymbolModel class from the active_symbols_model library, for the Dart programming language.">
+  <title>ActiveSymbolModel class - active_symbols_model library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../static-assets/styles.css?v1">
+  <link rel="icon" href="../static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href="../"
+      data-using-base-href="false">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../index.html">flutter_deriv_api</a></li>
+    <li><a href="../api_common_models_active_symbols_model/api_common_models_active_symbols_model-library.html">active_symbols_model</a></li>
+    <li class="self-crumb">ActiveSymbolModel abstract class</li>
+  </ol>
+  <div class="self-name">ActiveSymbolModel</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+
+  <div id="dartdoc-main-content" class="main-content">
+      <div>
+<h1><span class="kind-class">ActiveSymbolModel</span> class 
+    <a href="https://dart.dev/null-safety" class="feature feature-null-safety" title="Supports the null safety language feature.">Null safety</a>
+ 
+</h1></div>
+
+    
+<section class="desc markdown">
+  <p>Abstract class for Active symbol information</p>
+</section>
+
+
+    <section>
+      <dl class="dl-horizontal">
+        <dt>Inheritance</dt>
+        <dd><ul class="gt-separated dark clazz-relationships">
+          <li><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></li>
+          <li><a href="../api_models_api_base_model/APIBaseModel-class.html">APIBaseModel</a></li>
+          <li>ActiveSymbolModel</li>
+        </ul></dd>
+
+
+
+        <dt>Implementers</dt>
+        <dd><ul class="comma-separated clazz-relationships">
+          <li><a href="../api_common_active_symbols_active_symbols/ActiveSymbol-class.html">ActiveSymbol</a></li>
+        </ul></dd>
+
+
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="constructors">
+      <h2>Constructors</h2>
+
+      <dl class="constructor-summary-list">
+        <dt id="ActiveSymbolModel" class="callable">
+          <span class="name"><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/ActiveSymbolModel.html">ActiveSymbolModel</a></span><span class="signature">(<span class="parameter" id="-param-allowForwardStarting">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">allowForwardStarting</span>, </span><span class="parameter" id="-param-delayAmount"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">delayAmount</span>, </span><span class="parameter" id="-param-displayName"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">displayName</span>, </span><span class="parameter" id="-param-exchangeIsOpen"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">exchangeIsOpen</span>, </span><span class="parameter" id="-param-exchangeName"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">exchangeName</span>, </span><span class="parameter" id="-param-intradayIntervalMinutes"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">intradayIntervalMinutes</span>, </span><span class="parameter" id="-param-isTradingSuspended"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isTradingSuspended</span>, </span><span class="parameter" id="-param-market"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">market</span>, </span><span class="parameter" id="-param-marketDisplayName"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">marketDisplayName</span>, </span><span class="parameter" id="-param-pip"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">pip</span>, </span><span class="parameter" id="-param-quotedCurrencySymbol"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">quotedCurrencySymbol</span>, </span><span class="parameter" id="-param-spot"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">spot</span>, </span><span class="parameter" id="-param-spotAge"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">spotAge</span>, </span><span class="parameter" id="-param-spotTime"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">spotTime</span>, </span><span class="parameter" id="-param-submarket"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">submarket</span>, </span><span class="parameter" id="-param-submarketDisplayName"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">submarketDisplayName</span>, </span><span class="parameter" id="-param-symbol"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">symbol</span>, </span><span class="parameter" id="-param-symbolType"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">symbolType</span>}</span>)</span>
+        </dt>
+        <dd>
+          Initializes 
+        </dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="instance-properties">
+      <h2>Properties</h2>
+
+      <dl class="properties">
+        <dt id="allowForwardStarting" class="property">
+  <span class="name"><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/allowForwardStarting.html">allowForwardStarting</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> 
+
+</dt>
+<dd>
+  <code>true</code> if the symbol is tradable in a forward starting contract,
+<code>false</code> if not. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="delayAmount" class="property">
+  <span class="name"><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/delayAmount.html">delayAmount</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> 
+
+</dt>
+<dd>
+  Amount the data feed is delayed (in minutes) due to Exchange
+licensing requirements. Only returned on <code>full</code> active symbols call. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="displayName" class="property">
+  <span class="name"><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/displayName.html">displayName</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Display name. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="exchangeIsOpen" class="property">
+  <span class="name"><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/exchangeIsOpen.html">exchangeIsOpen</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> 
+
+</dt>
+<dd>
+  <code>true</code> if market is currently open, <code>false</code> if closed. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="exchangeName" class="property">
+  <span class="name"><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/exchangeName.html">exchangeName</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Exchange name (for underlyings listed on a Stock Exchange).
+Only returned on <code>full</code> active symbols call. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="hashCode" class="property inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/hashCode.html">hashCode</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> 
+
+</dt>
+<dd class="inherited">
+  The hash code for this object. <a href="https://api.flutter.dev/flutter/dart-core/Object/hashCode.html">[...]</a>
+  <div class="features">read-only, inherited</div>
+
+</dd>
+
+        <dt id="intradayIntervalMinutes" class="property">
+  <span class="name"><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/intradayIntervalMinutes.html">intradayIntervalMinutes</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> 
+
+</dt>
+<dd>
+  Intraday interval minutes. Only returned on <code>full</code> active symbols call. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="isTradingSuspended" class="property">
+  <span class="name"><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/isTradingSuspended.html">isTradingSuspended</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> 
+
+</dt>
+<dd>
+  <code>true</code> indicates that trading is currently suspended, <code>false</code> if not. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="market" class="property">
+  <span class="name"><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/market.html">market</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Market category (forex, indices, etc). 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="marketDisplayName" class="property">
+  <span class="name"><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/marketDisplayName.html">marketDisplayName</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Translated market name. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="pip" class="property">
+  <span class="name"><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/pip.html">pip</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd>
+  Pip size (i.e. minimum fluctuation amount). 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="quotedCurrencySymbol" class="property">
+  <span class="name"><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/quotedCurrencySymbol.html">quotedCurrencySymbol</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  For stock indices, the underlying currency for that instrument.
+Only returned on <code>full</code> active symbols call. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="runtimeType" class="property inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Type-class.html">Type</a></span> 
+
+</dt>
+<dd class="inherited">
+  A representation of the runtime type of the object. 
+  <div class="features">read-only, inherited</div>
+
+</dd>
+
+        <dt id="spot" class="property">
+  <span class="name"><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/spot.html">spot</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd>
+  Latest spot price of the underlying.
+Only returned on <code>full</code> active symbols call. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="spotAge" class="property">
+  <span class="name"><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/spotAge.html">spotAge</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Number of seconds elapsed since the last spot price.
+Only returned on <code>full</code> active symbols call. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="spotTime" class="property">
+  <span class="name"><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/spotTime.html">spotTime</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> 
+
+</dt>
+<dd>
+  Latest spot epoch time. Only returned on <code>full</code> active symbols call. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="submarket" class="property">
+  <span class="name"><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/submarket.html">submarket</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Submarket name. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="submarketDisplayName" class="property">
+  <span class="name"><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/submarketDisplayName.html">submarketDisplayName</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Translated submarket name. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="symbol" class="property">
+  <span class="name"><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/symbol.html">symbol</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  The symbol code for this underlying. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="symbolType" class="property">
+  <span class="name"><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/symbolType.html">symbolType</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Symbol type (forex, commodities, etc). 
+  <div class="features">final</div>
+
+</dd>
+
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor inherited" id="instance-methods">
+      <h2>Methods</h2>
+      <dl class="callables">
+        <dt id="noSuchMethod" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></span><span class="signature">(<wbr><span class="parameter" id="noSuchMethod-param-invocation"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Invocation-class.html">Invocation</a></span> <span class="parameter-name">invocation</span></span>)
+    <span class="returntype parameter">&#8594; dynamic</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Invoked when a non-existent method or property is accessed. <a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">[...]</a>
+  <div class="features">inherited</div>
+
+</dd>
+
+        <dt id="toString" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/toString.html">toString</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  A string representation of this object. <a href="https://api.flutter.dev/flutter/dart-core/Object/toString.html">[...]</a>
+  <div class="features">inherited</div>
+
+</dd>
+
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor inherited" id="operators">
+      <h2>Operators</h2>
+      <dl class="callables">
+        <dt id="operator ==" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/operator_equals.html">operator ==</a></span><span class="signature">(<wbr><span class="parameter" id="==-param-other"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">other</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  The equality operator. <a href="https://api.flutter.dev/flutter/dart-core/Object/operator_equals.html">[...]</a>
+  <div class="features">inherited</div>
+
+</dd>
+
+      </dl>
+    </section>
+
+
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+  <li><a href="../index.html">flutter_deriv_api</a></li>
+  <li><a href="../api_common_models_active_symbols_model/api_common_models_active_symbols_model-library.html">active_symbols_model</a></li>
+  <li class="self-crumb">ActiveSymbolModel abstract class</li>
+</ol>
+
+
+    <h5>active_symbols_model library</h5>
+    <ol>
+  <li class="section-title"><a href="../api_common_models_active_symbols_model/api_common_models_active_symbols_model-library.html#classes">Classes</a></li>
+  <li><a href="../api_common_models_active_symbols_model/ActiveSymbolModel-class.html">ActiveSymbolModel</a></li>
+
+
+
+
+
+
+
+
+</ol>
+
+  </div>
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+    <ol>
+
+    <li class="section-title"><a href="../api_common_models_active_symbols_model/ActiveSymbolModel-class.html#constructors">Constructors</a></li>
+    <li><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/ActiveSymbolModel.html">ActiveSymbolModel</a></li>
+
+
+    <li class="section-title">
+      <a href="../api_common_models_active_symbols_model/ActiveSymbolModel-class.html#instance-properties">Properties</a>
+    </li>
+    <li><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/allowForwardStarting.html">allowForwardStarting</a></li>
+    <li><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/delayAmount.html">delayAmount</a></li>
+    <li><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/displayName.html">displayName</a></li>
+    <li><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/exchangeIsOpen.html">exchangeIsOpen</a></li>
+    <li><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/exchangeName.html">exchangeName</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/hashCode.html">hashCode</a></li>
+    <li><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/intradayIntervalMinutes.html">intradayIntervalMinutes</a></li>
+    <li><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/isTradingSuspended.html">isTradingSuspended</a></li>
+    <li><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/market.html">market</a></li>
+    <li><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/marketDisplayName.html">marketDisplayName</a></li>
+    <li><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/pip.html">pip</a></li>
+    <li><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/quotedCurrencySymbol.html">quotedCurrencySymbol</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></li>
+    <li><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/spot.html">spot</a></li>
+    <li><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/spotAge.html">spotAge</a></li>
+    <li><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/spotTime.html">spotTime</a></li>
+    <li><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/submarket.html">submarket</a></li>
+    <li><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/submarketDisplayName.html">submarketDisplayName</a></li>
+    <li><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/symbol.html">symbol</a></li>
+    <li><a href="../api_common_models_active_symbols_model/ActiveSymbolModel/symbolType.html">symbolType</a></li>
+
+    <li class="section-title inherited"><a href="../api_common_models_active_symbols_model/ActiveSymbolModel-class.html#instance-methods">Methods</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/toString.html">toString</a></li>
+
+    <li class="section-title inherited"><a href="../api_common_models_active_symbols_model/ActiveSymbolModel-class.html#operators">Operators</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/operator_equals.html">operator ==</a></li>
+
+
+
+
+</ol>
+
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    flutter_deriv_api
+      0.0.1
+  </span>
+
+  
+</footer>
+
+
+
+<script src="../static-assets/highlight.pack.js?v1"></script>
+<script src="../static-assets/script.js?v1"></script>
+
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the OpenContract class from the open_contract library, for the Dart programming language.">
+  <title>OpenContract class - open_contract library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../static-assets/styles.css?v1">
+  <link rel="icon" href="../static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href="../"
+      data-using-base-href="false">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../index.html">flutter_deriv_api</a></li>
+    <li><a href="../api_contract_operation_open_contract/api_contract_operation_open_contract-library.html">open_contract</a></li>
+    <li class="self-crumb">OpenContract class</li>
+  </ol>
+  <div class="self-name">OpenContract</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+
+  <div id="dartdoc-main-content" class="main-content">
+      <div>
+<h1><span class="kind-class">OpenContract</span> class 
+    <a href="https://dart.dev/null-safety" class="feature feature-null-safety" title="Supports the null safety language feature.">Null safety</a>
+ 
+</h1></div>
+
+    
+<section class="desc markdown">
+  <p>Open contract class</p>
+</section>
+
+
+    <section>
+      <dl class="dl-horizontal">
+        <dt>Inheritance</dt>
+        <dd><ul class="gt-separated dark clazz-relationships">
+          <li><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></li>
+          <li><a href="../api_models_api_base_model/APIBaseModel-class.html">APIBaseModel</a></li>
+          <li><a href="../api_contract_models_contract_model/ContractModel-class.html">ContractModel</a></li>
+          <li><a href="../api_contract_operation_contract/Contract-class.html">Contract</a></li>
+          <li>OpenContract</li>
+        </ul></dd>
+
+
+
+
+
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="constructors">
+      <h2>Constructors</h2>
+
+      <dl class="constructor-summary-list">
+        <dt id="OpenContract" class="callable">
+          <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/OpenContract.html">OpenContract</a></span><span class="signature">(<span class="parameter" id="-param-auditDetails">{<span class="type-annotation"><a href="../api_contract_models_audit_detail_model/AuditDetailModel-class.html">AuditDetailModel</a>?</span> <span class="parameter-name">auditDetails</span>, </span><span class="parameter" id="-param-barrier"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">barrier</span>, </span><span class="parameter" id="-param-barrierCount"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">barrierCount</span>, </span><span class="parameter" id="-param-bidPrice"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">bidPrice</span>, </span><span class="parameter" id="-param-contractType"><span class="type-annotation"><a href="../api_models_enums/ContractType.html">ContractType</a>?</span> <span class="parameter-name">contractType</span>, </span><span class="parameter" id="-param-cancellation"><span class="type-annotation"><a href="../api_contract_models_cancellation_info_model/CancellationInfoModel-class.html">CancellationInfoModel</a>?</span> <span class="parameter-name">cancellation</span>, </span><span class="parameter" id="-param-commission"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">commission</span>, </span><span class="parameter" id="-param-currency"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">currency</span>, </span><span class="parameter" id="-param-currentSpot"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">currentSpot</span>, </span><span class="parameter" id="-param-currentSpotDisplayValue"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">currentSpotDisplayValue</span>, </span><span class="parameter" id="-param-currentSpotTime"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">currentSpotTime</span>, </span><span class="parameter" id="-param-dateExpiry"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">dateExpiry</span>, </span><span class="parameter" id="-param-dateSettlement"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">dateSettlement</span>, </span><span class="parameter" id="-param-displayName"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">displayName</span>, </span><span class="parameter" id="-param-displayValue"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">displayValue</span>, </span><span class="parameter" id="-param-entrySpot"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">entrySpot</span>, </span><span class="parameter" id="-param-entrySpotDisplayValue"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">entrySpotDisplayValue</span>, </span><span class="parameter" id="-param-entryTick"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">entryTick</span>, </span><span class="parameter" id="-param-entryTickDisplayValue"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">entryTickDisplayValue</span>, </span><span class="parameter" id="-param-entryTickTime"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">entryTickTime</span>, </span><span class="parameter" id="-param-exitTick"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">exitTick</span>, </span><span class="parameter" id="-param-exitTickDisplayValue"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">exitTickDisplayValue</span>, </span><span class="parameter" id="-param-exitTickTime"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">exitTickTime</span>, </span><span class="parameter" id="-param-highBarrier"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">highBarrier</span>, </span><span class="parameter" id="-param-id"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">id</span>, </span><span class="parameter" id="-param-isExpired"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isExpired</span>, </span><span class="parameter" id="-param-isForwardStarting"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isForwardStarting</span>, </span><span class="parameter" id="-param-isIntraday"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isIntraday</span>, </span><span class="parameter" id="-param-isPathDependent"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isPathDependent</span>, </span><span class="parameter" id="-param-isSettleable"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isSettleable</span>, </span><span class="parameter" id="-param-isSold"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isSold</span>, </span><span class="parameter" id="-param-isValidToCancel"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isValidToCancel</span>, </span><span class="parameter" id="-param-isValidToSell"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isValidToSell</span>, </span><span class="parameter" id="-param-limitOrder"><span class="type-annotation"><a href="../api_contract_models_limit_order_model/LimitOrderModel-class.html">LimitOrderModel</a>?</span> <span class="parameter-name">limitOrder</span>, </span><span class="parameter" id="-param-lowBarrier"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">lowBarrier</span>, </span><span class="parameter" id="-param-multiplier"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">multiplier</span>, </span><span class="parameter" id="-param-profit"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">profit</span>, </span><span class="parameter" id="-param-profitPercentage"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">profitPercentage</span>, </span><span class="parameter" id="-param-resetTime"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">resetTime</span>, </span><span class="parameter" id="-param-sellPrice"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">sellPrice</span>, </span><span class="parameter" id="-param-sellSpot"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">sellSpot</span>, </span><span class="parameter" id="-param-sellSpotDisplayValue"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">sellSpotDisplayValue</span>, </span><span class="parameter" id="-param-sellSpotTime"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">sellSpotTime</span>, </span><span class="parameter" id="-param-sellTime"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">sellTime</span>, </span><span class="parameter" id="-param-status"><span class="type-annotation"><a href="../api_models_enums/ContractStatus.html">ContractStatus</a>?</span> <span class="parameter-name">status</span>, </span><span class="parameter" id="-param-tickCount"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">tickCount</span>, </span><span class="parameter" id="-param-tickStream"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../api_contract_models_contract_tick_model/ContractTickModel-class.html">ContractTickModel</a>?</span>&gt;</span>?</span> <span class="parameter-name">tickStream</span>, </span><span class="parameter" id="-param-transactionIds"><span class="type-annotation"><a href="../api_contract_models_transaction_ids_model/TransactionIdsModel-class.html">TransactionIdsModel</a>?</span> <span class="parameter-name">transactionIds</span>, </span><span class="parameter" id="-param-underlying"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">underlying</span>, </span><span class="parameter" id="-param-validationError"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">validationError</span>, </span><span class="parameter" id="-param-balanceAfter"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">balanceAfter</span>, </span><span class="parameter" id="-param-buyPrice"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">buyPrice</span>, </span><span class="parameter" id="-param-contractId"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">contractId</span>, </span><span class="parameter" id="-param-dateStart"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">dateStart</span>, </span><span class="parameter" id="-param-longCode"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">longCode</span>, </span><span class="parameter" id="-param-payout"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">payout</span>, </span><span class="parameter" id="-param-purchaseTime"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">purchaseTime</span>, </span><span class="parameter" id="-param-shortCode"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">shortCode</span>, </span><span class="parameter" id="-param-transactionId"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">transactionId</span>, </span><span class="parameter" id="-param-subscriptionInformation"><span class="type-annotation"><a href="../api_models_subscription_model/SubscriptionModel-class.html">SubscriptionModel</a>?</span> <span class="parameter-name">subscriptionInformation</span>}</span>)</span>
+        </dt>
+        <dd>
+          Initializes 
+        </dd>
+        <dt id="OpenContract.fromJson" class="callable">
+          <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/OpenContract.fromJson.html">OpenContract.fromJson</a></span><span class="signature">(<span class="parameter" id="fromJson-param-json"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>, <span class="type-parameter">dynamic</span>&gt;</span></span> <span class="parameter-name">json</span>, </span><span class="parameter" id="fromJson-param-subscriptionJson">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>, <span class="type-parameter">dynamic</span>&gt;</span>?</span> <span class="parameter-name">subscriptionJson</span>}</span>)</span>
+        </dt>
+        <dd>
+          Generates an instance from JSON 
+          <div class="constructor-modifier features">factory</div>
+        </dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="instance-properties">
+      <h2>Properties</h2>
+
+      <dl class="properties">
+        <dt id="auditDetails" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/auditDetails.html">auditDetails</a></span>
+  <span class="signature">&#8594; <a href="../api_contract_models_audit_detail_model/AuditDetailModel-class.html">AuditDetailModel</a>?</span> 
+
+</dt>
+<dd>
+  Tick details around contract start and end time. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="balanceAfter" class="property inherited">
+  <span class="name"><a href="../api_contract_models_contract_model/ContractModel/balanceAfter.html">balanceAfter</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  The new account balance after completion of the purchase 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="barrier" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/barrier.html">barrier</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Barrier of the contract (if any). 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="barrierCount" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/barrierCount.html">barrierCount</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd>
+  The number of barriers a contract has. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="bidPrice" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/bidPrice.html">bidPrice</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd>
+  Price at which the contract could be sold back to the company. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="buyPrice" class="property inherited">
+  <span class="name"><a href="../api_contract_models_contract_model/ContractModel/buyPrice.html">buyPrice</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Price at which contract was purchased 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="cancellation" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/cancellation.html">cancellation</a></span>
+  <span class="signature">&#8594; <a href="../api_contract_models_cancellation_info_model/CancellationInfoModel-class.html">CancellationInfoModel</a>?</span> 
+
+</dt>
+<dd>
+  Contains information about contract cancellation option. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="commission" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/commission.html">commission</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd>
+  Commission in payout currency 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="contractId" class="property inherited">
+  <span class="name"><a href="../api_contract_models_contract_model/ContractModel/contractId.html">contractId</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  The internal contract identifier 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="contractType" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/contractType.html">contractType</a></span>
+  <span class="signature">&#8594; <a href="../api_models_enums/ContractType.html">ContractType</a>?</span> 
+
+</dt>
+<dd>
+  Contract type. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="currency" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/currency.html">currency</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  The currency code of the contract. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="currentSpot" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/currentSpot.html">currentSpot</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd>
+  Spot value if we have license to stream this symbol. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="currentSpotDisplayValue" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/currentSpotDisplayValue.html">currentSpotDisplayValue</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Spot value with the correct precision if we have license to stream this symbol. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="currentSpotTime" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/currentSpotTime.html">currentSpotTime</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> 
+
+</dt>
+<dd>
+  The corresponding time of the current spot. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="dateExpiry" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/dateExpiry.html">dateExpiry</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> 
+
+</dt>
+<dd>
+  Expiry date (epoch) of the Contract. Please note that it is not applicable for tick trade contracts. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="dateSettlement" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/dateSettlement.html">dateSettlement</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> 
+
+</dt>
+<dd>
+  Settlement date (epoch) of the contract. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="dateStart" class="property inherited">
+  <span class="name"><a href="../api_contract_models_contract_model/ContractModel/dateStart.html">dateStart</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Epoch of purchase time, will be same as <code>date_start</code> for all contracts except forward starting contracts. 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="displayName" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/displayName.html">displayName</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Display name of underlying 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="displayValue" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/displayValue.html">displayValue</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  The <code>bid_price</code> with the correct precision 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="entrySpot" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/entrySpot.html">entrySpot</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd>
+  Same as <code>entry_tick</code>. For backwards compatibility. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="entrySpotDisplayValue" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/entrySpotDisplayValue.html">entrySpotDisplayValue</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Same as <code>entry_tick_display_value</code>. For backwards compatibility. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="entryTick" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/entryTick.html">entryTick</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd>
+  This is the entry spot of the contract. For contracts starting immediately it is the next tick after the start time. For forward-starting contracts it is the spot at the start time. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="entryTickDisplayValue" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/entryTickDisplayValue.html">entryTickDisplayValue</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  This is the entry spot with the correct precision of the contract. For contracts starting immediately it is the next tick after the start time. For forward-starting contracts it is the spot at the start time. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="entryTickTime" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/entryTickTime.html">entryTickTime</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> 
+
+</dt>
+<dd>
+  This is the epoch time of the entry tick. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="exitTick" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/exitTick.html">exitTick</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd>
+  Exit tick can refer to the latest tick at the end time, the tick that fulfils the contract's winning or losing condition for path dependent contracts (Touch/No Touch and Stays Between/Goes Outside) or the tick at which the contract is sold before expiry. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="exitTickDisplayValue" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/exitTickDisplayValue.html">exitTickDisplayValue</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Exit tick can refer to the latest tick at the end time, the tick that fulfils the contract's winning or losing condition for path dependent contracts (Touch/No Touch and Stays Between/Goes Outside) or the tick at which the contract is sold before expiry. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="exitTickTime" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/exitTickTime.html">exitTickTime</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> 
+
+</dt>
+<dd>
+  This is the epoch time of the exit tick. Note that since certain instruments don't tick every second, the exit tick time may be a few seconds before the end time. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="hashCode" class="property inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/hashCode.html">hashCode</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> 
+
+</dt>
+<dd class="inherited">
+  The hash code for this object. <a href="https://api.flutter.dev/flutter/dart-core/Object/hashCode.html">[...]</a>
+  <div class="features">read-only, inherited</div>
+
+</dd>
+
+        <dt id="highBarrier" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/highBarrier.html">highBarrier</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  High barrier of the contract (if any). 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="id" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/id.html">id</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  A stream ID that can be used to cancel this stream using the Forget request. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="isExpired" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/isExpired.html">isExpired</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> 
+
+</dt>
+<dd>
+  Whether the contract is expired or not. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="isForwardStarting" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/isForwardStarting.html">isForwardStarting</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> 
+
+</dt>
+<dd>
+  Whether the contract is forward-starting or not. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="isIntraday" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/isIntraday.html">isIntraday</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> 
+
+</dt>
+<dd>
+  Whether the contract is an intraday contract. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="isPathDependent" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/isPathDependent.html">isPathDependent</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> 
+
+</dt>
+<dd>
+  Whether the contract expiry price will depend on the path of the market (e.g. One Touch contract). 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="isSettleable" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/isSettleable.html">isSettleable</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> 
+
+</dt>
+<dd>
+  Whether the contract is settleable or not. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="isSold" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/isSold.html">isSold</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> 
+
+</dt>
+<dd>
+  Whether the contract is sold or not. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="isValidToCancel" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/isValidToCancel.html">isValidToCancel</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> 
+
+</dt>
+<dd>
+  Whether the contract can be cancelled. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="isValidToSell" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/isValidToSell.html">isValidToSell</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> 
+
+</dt>
+<dd>
+  Whether the contract can be sold back to the company. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="limitOrder" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/limitOrder.html">limitOrder</a></span>
+  <span class="signature">&#8594; <a href="../api_contract_models_limit_order_model/LimitOrderModel-class.html">LimitOrderModel</a>?</span> 
+
+</dt>
+<dd>
+  Orders are applicable to <code>MULTUP</code> and <code>MULTDOWN</code> only. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="longCode" class="property inherited">
+  <span class="name"><a href="../api_contract_models_contract_model/ContractModel/longCode.html">longCode</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Text description of the contract purchased, Example: Win payout if Volatility 100 Index is strictly higher than entry spot at 10 minutes after contract start time. 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="lowBarrier" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/lowBarrier.html">lowBarrier</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Low barrier of the contract (if any). 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="multiplier" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/multiplier.html">multiplier</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd>
+  <code>Only for look back trades</code> Multiplier applies when calculating the final payoff for each type of look back. e.g. (Exit spot - Lowest historical price) * multiplier = Payout 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="payout" class="property inherited">
+  <span class="name"><a href="../api_contract_models_contract_model/ContractModel/payout.html">payout</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Payout value of the contract. 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="profit" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/profit.html">profit</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd>
+  The latest bid price minus buy price. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="profitPercentage" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/profitPercentage.html">profitPercentage</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd>
+  Profit in percentage. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="purchaseTime" class="property inherited">
+  <span class="name"><a href="../api_contract_models_contract_model/ContractModel/purchaseTime.html">purchaseTime</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Epoch of purchase time, will be same as <code>date_start</code> for all contracts except forward starting contracts. 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="resetTime" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/resetTime.html">resetTime</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> 
+
+</dt>
+<dd>
+  <code>Only for reset trades</code> The epoch time of a barrier reset. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="runtimeType" class="property inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Type-class.html">Type</a></span> 
+
+</dt>
+<dd class="inherited">
+  A representation of the runtime type of the object. 
+  <div class="features">read-only, inherited</div>
+
+</dd>
+
+        <dt id="sellPrice" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/sellPrice.html">sellPrice</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd>
+  Price at which contract was sold, only available when contract has been sold. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="sellSpot" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/sellSpot.html">sellSpot</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd>
+  Latest spot value at the sell time. (only present for contracts already sold). Will no longer be supported in the next API release. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="sellSpotDisplayValue" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/sellSpotDisplayValue.html">sellSpotDisplayValue</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Latest spot value with the correct precision at the sell time. (only present for contracts already sold). Will no longer be supported in the next API release. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="sellSpotTime" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/sellSpotTime.html">sellSpotTime</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> 
+
+</dt>
+<dd>
+  Epoch time of the sell spot. Note that since certain underlyings don't tick every second, the sell spot time may be a few seconds before the sell time. (only present for contracts already sold). Will no longer be supported in the next API release. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="sellTime" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/sellTime.html">sellTime</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> 
+
+</dt>
+<dd>
+  Epoch time of when the contract was sold (only present for contracts already sold) 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="shortCode" class="property inherited">
+  <span class="name"><a href="../api_contract_models_contract_model/ContractModel/shortCode.html">shortCode</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Coded description of the contract purchased. 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="status" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/status.html">status</a></span>
+  <span class="signature">&#8594; <a href="../api_models_enums/ContractStatus.html">ContractStatus</a>?</span> 
+
+</dt>
+<dd>
+  Contract status. Will be <code>sold</code> if the contract was sold back before expiry, <code>won</code> if won and <code>lost</code> if lost at expiry. Otherwise will be <code>open</code> 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="subscriptionInformation" class="property inherited">
+  <span class="name"><a href="../api_contract_operation_contract/Contract/subscriptionInformation.html">subscriptionInformation</a></span>
+  <span class="signature">&#8594; <a href="../api_models_subscription_model/SubscriptionModel-class.html">SubscriptionModel</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Subscription information 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="tickCount" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/tickCount.html">tickCount</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> 
+
+</dt>
+<dd>
+  Only for tick trades, number of ticks 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="tickStream" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/tickStream.html">tickStream</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../api_contract_models_contract_tick_model/ContractTickModel-class.html">ContractTickModel</a>?</span>&gt;</span>?</span> 
+
+</dt>
+<dd>
+  Tick stream from entry to end time. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="transactionId" class="property inherited">
+  <span class="name"><a href="../api_contract_models_contract_model/ContractModel/transactionId.html">transactionId</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Internal transaction identifier 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="transactionIds" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/transactionIds.html">transactionIds</a></span>
+  <span class="signature">&#8594; <a href="../api_contract_models_transaction_ids_model/TransactionIdsModel-class.html">TransactionIdsModel</a>?</span> 
+
+</dt>
+<dd>
+  Every contract has buy and sell transaction ids, i.e. when you purchase a contract we associate it with buy transaction id, and if contract is already sold we associate that with sell transaction id. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="underlying" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/underlying.html">underlying</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  The underlying symbol code. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="validationError" class="property">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/validationError.html">validationError</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Error message if validation fails 
+  <div class="features">final</div>
+
+</dd>
+
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="instance-methods">
+      <h2>Methods</h2>
+      <dl class="callables">
+        <dt id="cancel" class="callable inherited">
+  <span class="name"><a href="../api_contract_operation_contract/Contract/cancel.html">cancel</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../api_contract_operation_cancel_contract/CancelContract-class.html">CancelContract</a></span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Cancels this contract <a href="../api_contract_operation_contract/Contract/cancel.html">[...]</a>
+  <div class="features">inherited</div>
+
+</dd>
+
+        <dt id="copyWith" class="callable">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/copyWith.html">copyWith</a></span><span class="signature">(<wbr><span class="parameter" id="copyWith-param-auditDetails">{<span class="type-annotation"><a href="../api_contract_models_audit_detail_model/AuditDetailModel-class.html">AuditDetailModel</a>?</span> <span class="parameter-name">auditDetails</span>, </span><span class="parameter" id="copyWith-param-barrier"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">barrier</span>, </span><span class="parameter" id="copyWith-param-barrierCount"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">barrierCount</span>, </span><span class="parameter" id="copyWith-param-bidPrice"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">bidPrice</span>, </span><span class="parameter" id="copyWith-param-cancellation"><span class="type-annotation"><a href="../api_contract_models_cancellation_info_model/CancellationInfoModel-class.html">CancellationInfoModel</a>?</span> <span class="parameter-name">cancellation</span>, </span><span class="parameter" id="copyWith-param-commission"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">commission</span>, </span><span class="parameter" id="copyWith-param-contractType"><span class="type-annotation"><a href="../api_models_enums/ContractType.html">ContractType</a>?</span> <span class="parameter-name">contractType</span>, </span><span class="parameter" id="copyWith-param-currency"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">currency</span>, </span><span class="parameter" id="copyWith-param-currentSpot"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">currentSpot</span>, </span><span class="parameter" id="copyWith-param-currentSpotDisplayValue"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">currentSpotDisplayValue</span>, </span><span class="parameter" id="copyWith-param-currentSpotTime"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">currentSpotTime</span>, </span><span class="parameter" id="copyWith-param-dateExpiry"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">dateExpiry</span>, </span><span class="parameter" id="copyWith-param-dateSettlement"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">dateSettlement</span>, </span><span class="parameter" id="copyWith-param-displayName"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">displayName</span>, </span><span class="parameter" id="copyWith-param-displayValue"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">displayValue</span>, </span><span class="parameter" id="copyWith-param-entrySpot"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">entrySpot</span>, </span><span class="parameter" id="copyWith-param-entrySpotDisplayValue"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">entrySpotDisplayValue</span>, </span><span class="parameter" id="copyWith-param-entryTick"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">entryTick</span>, </span><span class="parameter" id="copyWith-param-entryTickDisplayValue"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">entryTickDisplayValue</span>, </span><span class="parameter" id="copyWith-param-entryTickTime"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">entryTickTime</span>, </span><span class="parameter" id="copyWith-param-exitTick"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">exitTick</span>, </span><span class="parameter" id="copyWith-param-exitTickDisplayValue"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">exitTickDisplayValue</span>, </span><span class="parameter" id="copyWith-param-exitTickTime"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">exitTickTime</span>, </span><span class="parameter" id="copyWith-param-highBarrier"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">highBarrier</span>, </span><span class="parameter" id="copyWith-param-id"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">id</span>, </span><span class="parameter" id="copyWith-param-isExpired"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isExpired</span>, </span><span class="parameter" id="copyWith-param-isForwardStarting"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isForwardStarting</span>, </span><span class="parameter" id="copyWith-param-isIntraday"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isIntraday</span>, </span><span class="parameter" id="copyWith-param-isPathDependent"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isPathDependent</span>, </span><span class="parameter" id="copyWith-param-isSettleable"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isSettleable</span>, </span><span class="parameter" id="copyWith-param-isSold"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isSold</span>, </span><span class="parameter" id="copyWith-param-isValidToSell"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isValidToSell</span>, </span><span class="parameter" id="copyWith-param-isValidToCancel"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isValidToCancel</span>, </span><span class="parameter" id="copyWith-param-limitOrder"><span class="type-annotation"><a href="../api_contract_models_limit_order_model/LimitOrderModel-class.html">LimitOrderModel</a>?</span> <span class="parameter-name">limitOrder</span>, </span><span class="parameter" id="copyWith-param-lowBarrier"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">lowBarrier</span>, </span><span class="parameter" id="copyWith-param-multiplier"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">multiplier</span>, </span><span class="parameter" id="copyWith-param-profit"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">profit</span>, </span><span class="parameter" id="copyWith-param-profitPercentage"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">profitPercentage</span>, </span><span class="parameter" id="copyWith-param-resetTime"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">resetTime</span>, </span><span class="parameter" id="copyWith-param-sellPrice"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">sellPrice</span>, </span><span class="parameter" id="copyWith-param-sellSpot"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">sellSpot</span>, </span><span class="parameter" id="copyWith-param-sellSpotDisplayValue"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">sellSpotDisplayValue</span>, </span><span class="parameter" id="copyWith-param-sellSpotTime"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">sellSpotTime</span>, </span><span class="parameter" id="copyWith-param-sellTime"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">sellTime</span>, </span><span class="parameter" id="copyWith-param-status"><span class="type-annotation"><a href="../api_models_enums/ContractStatus.html">ContractStatus</a>?</span> <span class="parameter-name">status</span>, </span><span class="parameter" id="copyWith-param-tickCount"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">tickCount</span>, </span><span class="parameter" id="copyWith-param-tickStream"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../api_contract_models_contract_tick_model/ContractTickModel-class.html">ContractTickModel</a></span>&gt;</span>?</span> <span class="parameter-name">tickStream</span>, </span><span class="parameter" id="copyWith-param-transactionIds"><span class="type-annotation"><a href="../api_contract_models_transaction_ids_model/TransactionIdsModel-class.html">TransactionIdsModel</a>?</span> <span class="parameter-name">transactionIds</span>, </span><span class="parameter" id="copyWith-param-underlying"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">underlying</span>, </span><span class="parameter" id="copyWith-param-validationError"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">validationError</span>, </span><span class="parameter" id="copyWith-param-balanceAfter"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">balanceAfter</span>, </span><span class="parameter" id="copyWith-param-buyPrice"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">buyPrice</span>, </span><span class="parameter" id="copyWith-param-contractId"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">contractId</span>, </span><span class="parameter" id="copyWith-param-dateStart"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">dateStart</span>, </span><span class="parameter" id="copyWith-param-longCode"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">longCode</span>, </span><span class="parameter" id="copyWith-param-payout"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">payout</span>, </span><span class="parameter" id="copyWith-param-purchaseTime"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">purchaseTime</span>, </span><span class="parameter" id="copyWith-param-shortCode"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">shortCode</span>, </span><span class="parameter" id="copyWith-param-transactionId"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">transactionId</span>, </span><span class="parameter" id="copyWith-param-subscriptionInformation"><span class="type-annotation"><a href="../api_models_subscription_model/SubscriptionModel-class.html">SubscriptionModel</a>?</span> <span class="parameter-name">subscriptionInformation</span>}</span>)
+    <span class="returntype parameter">&#8594; <a href="../api_contract_operation_open_contract/OpenContract-class.html">OpenContract</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Generates a copy of instance with given parameters 
+  <div class="features">override</div>
+
+</dd>
+
+        <dt id="fetchState" class="callable inherited">
+  <span class="name"><a href="../api_contract_operation_contract/Contract/fetchState.html">fetchState</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../api_contract_operation_open_contract/OpenContract-class.html">OpenContract</a></span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Gets the current spot of the this bought contract as <a href="../api_contract_operation_contract/Contract-class.html">Contract</a>. <a href="../api_contract_operation_contract/Contract/fetchState.html">[...]</a>
+  <div class="features">inherited</div>
+
+</dd>
+
+        <dt id="noSuchMethod" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></span><span class="signature">(<wbr><span class="parameter" id="noSuchMethod-param-invocation"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Invocation-class.html">Invocation</a></span> <span class="parameter-name">invocation</span></span>)
+    <span class="returntype parameter">&#8594; dynamic</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Invoked when a non-existent method or property is accessed. <a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">[...]</a>
+  <div class="features">inherited</div>
+
+</dd>
+
+        <dt id="sell" class="callable inherited">
+  <span class="name"><a href="../api_contract_operation_contract/Contract/sell.html">sell</a></span><span class="signature">(<wbr><span class="parameter" id="sell-param-price">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a></span> <span class="parameter-name">price</span> = <span class="default-value">0</span>}</span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../api_contract_operation_sell_contract/SellContract-class.html">SellContract</a></span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Sells this contract. <a href="../api_contract_operation_contract/Contract/sell.html">[...]</a>
+  <div class="features">inherited</div>
+
+</dd>
+
+        <dt id="subscribeState" class="callable inherited">
+  <span class="name"><a href="../api_contract_operation_contract/Contract/subscribeState.html">subscribeState</a></span><span class="signature">(<wbr><span class="parameter" id="subscribeState-param-comparePredicate">{<span class="type-annotation"><a href="../services_connection_call_manager_base_call_manager/RequestCompareFunction.html">RequestCompareFunction</a>?</span> <span class="parameter-name">comparePredicate</span>}</span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Stream-class.html">Stream</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../api_contract_operation_open_contract/OpenContract-class.html">OpenContract</a>?</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Subscribes to this bought contract spot and returns its spot update as <code>ContractBaseModel</code>. <a href="../api_contract_operation_contract/Contract/subscribeState.html">[...]</a>
+  <div class="features">inherited</div>
+
+</dd>
+
+        <dt id="toString" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/toString.html">toString</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  A string representation of this object. <a href="https://api.flutter.dev/flutter/dart-core/Object/toString.html">[...]</a>
+  <div class="features">inherited</div>
+
+</dd>
+
+        <dt id="unsubscribeOpenContract" class="callable">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/unsubscribeOpenContract.html">unsubscribeOpenContract</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../api_common_forget_forget/Forget-class.html">Forget</a>?</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Unsubscribes from open contract subscription. <a href="../api_contract_operation_open_contract/OpenContract/unsubscribeOpenContract.html">[...]</a>
+  
+
+</dd>
+
+        <dt id="update" class="callable inherited">
+  <span class="name"><a href="../api_contract_operation_contract/Contract/update.html">update</a></span><span class="signature">(<wbr><span class="parameter" id="update-param-stopLoss">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">stopLoss</span>, </span><span class="parameter" id="update-param-takeProfit"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">takeProfit</span>}</span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../api_contract_operation_update_contract/UpdateContract-class.html">UpdateContract</a></span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Updates this contract <a href="../api_contract_operation_contract/Contract/update.html">[...]</a>
+  <div class="features">inherited</div>
+
+</dd>
+
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor inherited" id="operators">
+      <h2>Operators</h2>
+      <dl class="callables">
+        <dt id="operator ==" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/operator_equals.html">operator ==</a></span><span class="signature">(<wbr><span class="parameter" id="==-param-other"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">other</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  The equality operator. <a href="https://api.flutter.dev/flutter/dart-core/Object/operator_equals.html">[...]</a>
+  <div class="features">inherited</div>
+
+</dd>
+
+      </dl>
+    </section>
+
+
+    <section class="summary offset-anchor" id="static-methods">
+      <h2>Static Methods</h2>
+      <dl class="callables">
+        <dt id="fetchContractState" class="callable">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/fetchContractState.html">fetchContractState</a></span><span class="signature">(<wbr><span class="parameter" id="fetchContractState-param-request"><span class="type-annotation"><a href="../basic_api_generated_proposal_open_contract_send/ProposalOpenContractRequest-class.html">ProposalOpenContractRequest</a></span> <span class="parameter-name">request</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../api_contract_operation_open_contract/OpenContract-class.html">OpenContract</a></span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Gets the current spot of the the bought contract specified in <a href="../basic_api_generated_proposal_open_contract_send/ProposalOpenContractRequest-class.html">ProposalOpenContractRequest</a> <a href="../api_contract_operation_open_contract/OpenContract/fetchContractState.html">[...]</a>
+  
+
+</dd>
+
+        <dt id="subscribeContractState" class="callable">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/subscribeContractState.html">subscribeContractState</a></span><span class="signature">(<wbr><span class="parameter" id="subscribeContractState-param-request"><span class="type-annotation"><a href="../basic_api_generated_proposal_open_contract_send/ProposalOpenContractRequest-class.html">ProposalOpenContractRequest</a></span> <span class="parameter-name">request</span>, </span><span class="parameter" id="subscribeContractState-param-comparePredicate">{<span class="type-annotation"><a href="../services_connection_call_manager_base_call_manager/RequestCompareFunction.html">RequestCompareFunction</a>?</span> <span class="parameter-name">comparePredicate</span>}</span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Stream-class.html">Stream</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../api_contract_operation_open_contract/OpenContract-class.html">OpenContract</a>?</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Subscribes to the bought contract state specified in <a href="../basic_api_generated_proposal_open_contract_send/ProposalOpenContractRequest-class.html">ProposalOpenContractRequest</a> <a href="../api_contract_operation_open_contract/OpenContract/subscribeContractState.html">[...]</a>
+  
+
+</dd>
+
+        <dt id="unsubscribeAllOpenContract" class="callable">
+  <span class="name"><a href="../api_contract_operation_open_contract/OpenContract/unsubscribeAllOpenContract.html">unsubscribeAllOpenContract</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../api_common_forget_forget_all/ForgetAll-class.html">ForgetAll</a></span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Unsubscribes all open contract subscriptions. <a href="../api_contract_operation_open_contract/OpenContract/unsubscribeAllOpenContract.html">[...]</a>
+  
+
+</dd>
+
+      </dl>
+    </section>
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+  <li><a href="../index.html">flutter_deriv_api</a></li>
+  <li><a href="../api_contract_operation_open_contract/api_contract_operation_open_contract-library.html">open_contract</a></li>
+  <li class="self-crumb">OpenContract class</li>
+</ol>
+
+
+    <h5>open_contract library</h5>
+    <ol>
+  <li class="section-title"><a href="../api_contract_operation_open_contract/api_contract_operation_open_contract-library.html#classes">Classes</a></li>
+  <li><a href="../api_contract_operation_open_contract/OpenContract-class.html">OpenContract</a></li>
+
+
+
+
+
+
+
+
+</ol>
+
+  </div>
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+    <ol>
+
+    <li class="section-title"><a href="../api_contract_operation_open_contract/OpenContract-class.html#constructors">Constructors</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/OpenContract.html">OpenContract</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/OpenContract.fromJson.html">fromJson</a></li>
+
+
+    <li class="section-title">
+      <a href="../api_contract_operation_open_contract/OpenContract-class.html#instance-properties">Properties</a>
+    </li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/auditDetails.html">auditDetails</a></li>
+    <li class="inherited"><a href="../api_contract_models_contract_model/ContractModel/balanceAfter.html">balanceAfter</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/barrier.html">barrier</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/barrierCount.html">barrierCount</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/bidPrice.html">bidPrice</a></li>
+    <li class="inherited"><a href="../api_contract_models_contract_model/ContractModel/buyPrice.html">buyPrice</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/cancellation.html">cancellation</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/commission.html">commission</a></li>
+    <li class="inherited"><a href="../api_contract_models_contract_model/ContractModel/contractId.html">contractId</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/contractType.html">contractType</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/currency.html">currency</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/currentSpot.html">currentSpot</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/currentSpotDisplayValue.html">currentSpotDisplayValue</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/currentSpotTime.html">currentSpotTime</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/dateExpiry.html">dateExpiry</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/dateSettlement.html">dateSettlement</a></li>
+    <li class="inherited"><a href="../api_contract_models_contract_model/ContractModel/dateStart.html">dateStart</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/displayName.html">displayName</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/displayValue.html">displayValue</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/entrySpot.html">entrySpot</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/entrySpotDisplayValue.html">entrySpotDisplayValue</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/entryTick.html">entryTick</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/entryTickDisplayValue.html">entryTickDisplayValue</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/entryTickTime.html">entryTickTime</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/exitTick.html">exitTick</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/exitTickDisplayValue.html">exitTickDisplayValue</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/exitTickTime.html">exitTickTime</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/hashCode.html">hashCode</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/highBarrier.html">highBarrier</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/id.html">id</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/isExpired.html">isExpired</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/isForwardStarting.html">isForwardStarting</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/isIntraday.html">isIntraday</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/isPathDependent.html">isPathDependent</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/isSettleable.html">isSettleable</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/isSold.html">isSold</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/isValidToCancel.html">isValidToCancel</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/isValidToSell.html">isValidToSell</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/limitOrder.html">limitOrder</a></li>
+    <li class="inherited"><a href="../api_contract_models_contract_model/ContractModel/longCode.html">longCode</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/lowBarrier.html">lowBarrier</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/multiplier.html">multiplier</a></li>
+    <li class="inherited"><a href="../api_contract_models_contract_model/ContractModel/payout.html">payout</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/profit.html">profit</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/profitPercentage.html">profitPercentage</a></li>
+    <li class="inherited"><a href="../api_contract_models_contract_model/ContractModel/purchaseTime.html">purchaseTime</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/resetTime.html">resetTime</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/sellPrice.html">sellPrice</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/sellSpot.html">sellSpot</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/sellSpotDisplayValue.html">sellSpotDisplayValue</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/sellSpotTime.html">sellSpotTime</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/sellTime.html">sellTime</a></li>
+    <li class="inherited"><a href="../api_contract_models_contract_model/ContractModel/shortCode.html">shortCode</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/status.html">status</a></li>
+    <li class="inherited"><a href="../api_contract_operation_contract/Contract/subscriptionInformation.html">subscriptionInformation</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/tickCount.html">tickCount</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/tickStream.html">tickStream</a></li>
+    <li class="inherited"><a href="../api_contract_models_contract_model/ContractModel/transactionId.html">transactionId</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/transactionIds.html">transactionIds</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/underlying.html">underlying</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/validationError.html">validationError</a></li>
+
+    <li class="section-title"><a href="../api_contract_operation_open_contract/OpenContract-class.html#instance-methods">Methods</a></li>
+    <li class="inherited"><a href="../api_contract_operation_contract/Contract/cancel.html">cancel</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/copyWith.html">copyWith</a></li>
+    <li class="inherited"><a href="../api_contract_operation_contract/Contract/fetchState.html">fetchState</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></li>
+    <li class="inherited"><a href="../api_contract_operation_contract/Contract/sell.html">sell</a></li>
+    <li class="inherited"><a href="../api_contract_operation_contract/Contract/subscribeState.html">subscribeState</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/toString.html">toString</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/unsubscribeOpenContract.html">unsubscribeOpenContract</a></li>
+    <li class="inherited"><a href="../api_contract_operation_contract/Contract/update.html">update</a></li>
+
+    <li class="section-title inherited"><a href="../api_contract_operation_open_contract/OpenContract-class.html#operators">Operators</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/operator_equals.html">operator ==</a></li>
+
+
+
+    <li class="section-title"><a href="../api_contract_operation_open_contract/OpenContract-class.html#static-methods">Static methods</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/fetchContractState.html">fetchContractState</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/subscribeContractState.html">subscribeContractState</a></li>
+    <li><a href="../api_contract_operation_open_contract/OpenContract/unsubscribeAllOpenContract.html">unsubscribeAllOpenContract</a></li>
+
+</ol>
+
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    flutter_deriv_api
+      0.0.1
+  </span>
+
+  
+</footer>
+
+
+
+<script src="../static-assets/highlight.pack.js?v1"></script>
+<script src="../static-assets/script.js?v1"></script>
+
+
+
+</body>
+
+</html>
+

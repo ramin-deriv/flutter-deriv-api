@@ -97,6 +97,7 @@ void main() {
           paymentMethodNames: <String>['bank_transfer'],
           rate: 4.25,
           paymentMethodIds: <int>[],
+          rateType: '',
         ),
       );
 

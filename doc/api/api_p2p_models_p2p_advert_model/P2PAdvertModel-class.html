@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the P2PAdvertModel class from the p2p_advert_model library, for the Dart programming language.">
+  <title>P2PAdvertModel class - p2p_advert_model library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../static-assets/styles.css?v1">
+  <link rel="icon" href="../static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href="../"
+      data-using-base-href="false">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../index.html">flutter_deriv_api</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/api_p2p_models_p2p_advert_model-library.html">p2p_advert_model</a></li>
+    <li class="self-crumb">P2PAdvertModel abstract class</li>
+  </ol>
+  <div class="self-name">P2PAdvertModel</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+
+  <div id="dartdoc-main-content" class="main-content">
+      <div>
+<h1><span class="kind-class">P2PAdvertModel</span> class 
+    <a href="https://dart.dev/null-safety" class="feature feature-null-safety" title="Supports the null safety language feature.">Null safety</a>
+ 
+</h1></div>
+
+    
+<section class="desc markdown">
+  <p>P2P advert model class</p>
+</section>
+
+
+    <section>
+      <dl class="dl-horizontal">
+        <dt>Inheritance</dt>
+        <dd><ul class="gt-separated dark clazz-relationships">
+          <li><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></li>
+          <li><a href="../api_models_api_base_model/APIBaseModel-class.html">APIBaseModel</a></li>
+          <li>P2PAdvertModel</li>
+        </ul></dd>
+
+
+
+        <dt>Implementers</dt>
+        <dd><ul class="comma-separated clazz-relationships">
+          <li><a href="../api_p2p_p2p_advert_p2p_advert/P2PAdvert-class.html">P2PAdvert</a></li>
+        </ul></dd>
+
+
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="constructors">
+      <h2>Constructors</h2>
+
+      <dl class="constructor-summary-list">
+        <dt id="P2PAdvertModel" class="callable">
+          <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/P2PAdvertModel.html">P2PAdvertModel</a></span><span class="signature">(<span class="parameter" id="-param-accountCurrency">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">accountCurrency</span>, </span><span class="parameter" id="-param-advertiserDetails"><span class="type-annotation"><a href="../api_p2p_models_p2p_advertiser_details_model/P2PAdvertiserDetailsModel-class.html">P2PAdvertiserDetailsModel</a>?</span> <span class="parameter-name">advertiserDetails</span>, </span><span class="parameter" id="-param-amount"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">amount</span>, </span><span class="parameter" id="-param-amountDisplay"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">amountDisplay</span>, </span><span class="parameter" id="-param-contactInfo"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">contactInfo</span>, </span><span class="parameter" id="-param-counterpartyType"><span class="type-annotation"><a href="../api_models_enums/TransactionType.html">TransactionType</a>?</span> <span class="parameter-name">counterpartyType</span>, </span><span class="parameter" id="-param-country"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">country</span>, </span><span class="parameter" id="-param-createdTime"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">createdTime</span>, </span><span class="parameter" id="-param-description"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">description</span>, </span><span class="parameter" id="-param-id"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">id</span>, </span><span class="parameter" id="-param-isActive"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isActive</span>, </span><span class="parameter" id="-param-localCurrency"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">localCurrency</span>, </span><span class="parameter" id="-param-maxOrderAmount"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">maxOrderAmount</span>, </span><span class="parameter" id="-param-maxOrderAmountDisplay"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">maxOrderAmountDisplay</span>, </span><span class="parameter" id="-param-maxOrderAmountLimit"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">maxOrderAmountLimit</span>, </span><span class="parameter" id="-param-maxOrderAmountLimitDisplay"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">maxOrderAmountLimitDisplay</span>, </span><span class="parameter" id="-param-minOrderAmount"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">minOrderAmount</span>, </span><span class="parameter" id="-param-minOrderAmountDisplay"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">minOrderAmountDisplay</span>, </span><span class="parameter" id="-param-minOrderAmountLimit"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">minOrderAmountLimit</span>, </span><span class="parameter" id="-param-minOrderAmountLimitDisplay"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">minOrderAmountLimitDisplay</span>, </span><span class="parameter" id="-param-paymentInfo"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">paymentInfo</span>, </span><span class="parameter" id="-param-paymentMethod"><span class="type-annotation"><a href="../api_models_enums/PaymentMethod.html">PaymentMethod</a>?</span> <span class="parameter-name">paymentMethod</span>, </span><span class="parameter" id="-param-price"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">price</span>, </span><span class="parameter" id="-param-priceDisplay"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">priceDisplay</span>, </span><span class="parameter" id="-param-rate"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">rate</span>, </span><span class="parameter" id="-param-rateDisplay"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">rateDisplay</span>, </span><span class="parameter" id="-param-remainingAmount"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">remainingAmount</span>, </span><span class="parameter" id="-param-remainingAmountDisplay"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">remainingAmountDisplay</span>, </span><span class="parameter" id="-param-type"><span class="type-annotation"><a href="../api_models_enums/TransactionType.html">TransactionType</a>?</span> <span class="parameter-name">type</span>}</span>)</span>
+        </dt>
+        <dd>
+          Initializes 
+        </dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="instance-properties">
+      <h2>Properties</h2>
+
+      <dl class="properties">
+        <dt id="accountCurrency" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/accountCurrency.html">accountCurrency</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Currency for this advert. This is the system currency to be transferred between advertiser and client. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="advertiserDetails" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/advertiserDetails.html">advertiserDetails</a></span>
+  <span class="signature">&#8594; <a href="../api_p2p_models_p2p_advertiser_details_model/P2PAdvertiserDetailsModel-class.html">P2PAdvertiserDetailsModel</a>?</span> 
+
+</dt>
+<dd>
+  Details of the advertiser for this advert. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="amount" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/amount.html">amount</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd>
+  The total amount specified in advert, in <code>account_currency</code>. It is only visible for advertisers. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="amountDisplay" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/amountDisplay.html">amountDisplay</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  The total amount specified in advert, in <code>account_currency</code>, formatted to appropriate decimal places. It is only visible for advertisers. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="contactInfo" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/contactInfo.html">contactInfo</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Advertiser contact information. Only applicable for 'sell adverts'. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="counterpartyType" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/counterpartyType.html">counterpartyType</a></span>
+  <span class="signature">&#8594; <a href="../api_models_enums/TransactionType.html">TransactionType</a>?</span> 
+
+</dt>
+<dd>
+  Type of transaction from the opposite party's perspective. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="country" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/country.html">country</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  The target country code of the advert. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="createdTime" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/createdTime.html">createdTime</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> 
+
+</dt>
+<dd>
+  The advert creation time in epoch. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="description" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/description.html">description</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  General information about the advert. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="hashCode" class="property inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/hashCode.html">hashCode</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> 
+
+</dt>
+<dd class="inherited">
+  The hash code for this object. <a href="https://api.flutter.dev/flutter/dart-core/Object/hashCode.html">[...]</a>
+  <div class="features">read-only, inherited</div>
+
+</dd>
+
+        <dt id="id" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/id.html">id</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  The unique identifier for this advert. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="isActive" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/isActive.html">isActive</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> 
+
+</dt>
+<dd>
+  The activation status of the advert. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="localCurrency" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/localCurrency.html">localCurrency</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Local currency for this advert. This is the form of payment to be arranged directly between advertiser and client. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="maxOrderAmount" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/maxOrderAmount.html">maxOrderAmount</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd>
+  Maximum order amount specified in advert, in <code>account_currency</code>. It is only visible for advertisers. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="maxOrderAmountDisplay" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/maxOrderAmountDisplay.html">maxOrderAmountDisplay</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Maximum order amount specified in advert, in <code>account_currency</code>, formatted to appropriate decimal places. It is only visible for advertisers. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="maxOrderAmountLimit" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/maxOrderAmountLimit.html">maxOrderAmountLimit</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd>
+  Maximum order amount at this time, in <code>account_currency</code>. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="maxOrderAmountLimitDisplay" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/maxOrderAmountLimitDisplay.html">maxOrderAmountLimitDisplay</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Maximum order amount at this time, in <code>account_currency</code>, formatted to appropriate decimal places. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="minOrderAmount" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/minOrderAmount.html">minOrderAmount</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd>
+  Minimum order amount specified in advert, in <code>account_currency</code>. It is only visible for advertisers. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="minOrderAmountDisplay" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/minOrderAmountDisplay.html">minOrderAmountDisplay</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Minimum order amount specified in advert, in <code>account_currency</code>, formatted to appropriate decimal places. It is only visible for advertisers. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="minOrderAmountLimit" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/minOrderAmountLimit.html">minOrderAmountLimit</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd>
+  Minimum order amount at this time, in <code>account_currency</code>. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="minOrderAmountLimitDisplay" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/minOrderAmountLimitDisplay.html">minOrderAmountLimitDisplay</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Minimum order amount at this time, in <code>account_currency</code>, formatted to appropriate decimal places. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="paymentInfo" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/paymentInfo.html">paymentInfo</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Payment instructions. Only applicable for 'sell adverts'. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="paymentMethod" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/paymentMethod.html">paymentMethod</a></span>
+  <span class="signature">&#8594; <a href="../api_models_enums/PaymentMethod.html">PaymentMethod</a>?</span> 
+
+</dt>
+<dd>
+  The payment method. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="price" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/price.html">price</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd>
+  Cost of the advert in local currency. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="priceDisplay" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/priceDisplay.html">priceDisplay</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Cost of the advert in local currency, formatted to appropriate decimal places. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="rate" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/rate.html">rate</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd>
+  Conversion rate from account currency to local currency. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="rateDisplay" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/rateDisplay.html">rateDisplay</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Conversion rate from account currency to local currency, formatted to appropriate decimal places. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="remainingAmount" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/remainingAmount.html">remainingAmount</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd>
+  Amount currently available for orders, in <code>account_currency</code>. It is only visible for advertisers. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="remainingAmountDisplay" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/remainingAmountDisplay.html">remainingAmountDisplay</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Amount currently available for orders, in <code>account_currency</code>, formatted to appropriate decimal places. It is only visible for advertisers. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="runtimeType" class="property inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Type-class.html">Type</a></span> 
+
+</dt>
+<dd class="inherited">
+  A representation of the runtime type of the object. 
+  <div class="features">read-only, inherited</div>
+
+</dd>
+
+        <dt id="type" class="property">
+  <span class="name"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/type.html">type</a></span>
+  <span class="signature">&#8594; <a href="../api_models_enums/TransactionType.html">TransactionType</a>?</span> 
+
+</dt>
+<dd>
+  Whether this is a buy or a sell. 
+  <div class="features">final</div>
+
+</dd>
+
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor inherited" id="instance-methods">
+      <h2>Methods</h2>
+      <dl class="callables">
+        <dt id="noSuchMethod" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></span><span class="signature">(<wbr><span class="parameter" id="noSuchMethod-param-invocation"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Invocation-class.html">Invocation</a></span> <span class="parameter-name">invocation</span></span>)
+    <span class="returntype parameter">&#8594; dynamic</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Invoked when a non-existent method or property is accessed. <a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">[...]</a>
+  <div class="features">inherited</div>
+
+</dd>
+
+        <dt id="toString" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/toString.html">toString</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  A string representation of this object. <a href="https://api.flutter.dev/flutter/dart-core/Object/toString.html">[...]</a>
+  <div class="features">inherited</div>
+
+</dd>
+
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor inherited" id="operators">
+      <h2>Operators</h2>
+      <dl class="callables">
+        <dt id="operator ==" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/operator_equals.html">operator ==</a></span><span class="signature">(<wbr><span class="parameter" id="==-param-other"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">other</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  The equality operator. <a href="https://api.flutter.dev/flutter/dart-core/Object/operator_equals.html">[...]</a>
+  <div class="features">inherited</div>
+
+</dd>
+
+      </dl>
+    </section>
+
+
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+  <li><a href="../index.html">flutter_deriv_api</a></li>
+  <li><a href="../api_p2p_models_p2p_advert_model/api_p2p_models_p2p_advert_model-library.html">p2p_advert_model</a></li>
+  <li class="self-crumb">P2PAdvertModel abstract class</li>
+</ol>
+
+
+    <h5>p2p_advert_model library</h5>
+    <ol>
+  <li class="section-title"><a href="../api_p2p_models_p2p_advert_model/api_p2p_models_p2p_advert_model-library.html#classes">Classes</a></li>
+  <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel-class.html">P2PAdvertModel</a></li>
+
+
+
+
+
+
+
+
+</ol>
+
+  </div>
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+    <ol>
+
+    <li class="section-title"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel-class.html#constructors">Constructors</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/P2PAdvertModel.html">P2PAdvertModel</a></li>
+
+
+    <li class="section-title">
+      <a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel-class.html#instance-properties">Properties</a>
+    </li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/accountCurrency.html">accountCurrency</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/advertiserDetails.html">advertiserDetails</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/amount.html">amount</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/amountDisplay.html">amountDisplay</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/contactInfo.html">contactInfo</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/counterpartyType.html">counterpartyType</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/country.html">country</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/createdTime.html">createdTime</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/description.html">description</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/hashCode.html">hashCode</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/id.html">id</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/isActive.html">isActive</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/localCurrency.html">localCurrency</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/maxOrderAmount.html">maxOrderAmount</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/maxOrderAmountDisplay.html">maxOrderAmountDisplay</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/maxOrderAmountLimit.html">maxOrderAmountLimit</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/maxOrderAmountLimitDisplay.html">maxOrderAmountLimitDisplay</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/minOrderAmount.html">minOrderAmount</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/minOrderAmountDisplay.html">minOrderAmountDisplay</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/minOrderAmountLimit.html">minOrderAmountLimit</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/minOrderAmountLimitDisplay.html">minOrderAmountLimitDisplay</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/paymentInfo.html">paymentInfo</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/paymentMethod.html">paymentMethod</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/price.html">price</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/priceDisplay.html">priceDisplay</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/rate.html">rate</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/rateDisplay.html">rateDisplay</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/remainingAmount.html">remainingAmount</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/remainingAmountDisplay.html">remainingAmountDisplay</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></li>
+    <li><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel/type.html">type</a></li>
+
+    <li class="section-title inherited"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel-class.html#instance-methods">Methods</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/toString.html">toString</a></li>
+
+    <li class="section-title inherited"><a href="../api_p2p_models_p2p_advert_model/P2PAdvertModel-class.html#operators">Operators</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/operator_equals.html">operator ==</a></li>
+
+
+
+
+</ol>
+
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    flutter_deriv_api
+      0.0.1
+  </span>
+
+  
+</footer>
+
+
+
+<script src="../static-assets/highlight.pack.js?v1"></script>
+<script src="../static-assets/script.js?v1"></script>
+
+
+
+</body>
+
+</html>
+

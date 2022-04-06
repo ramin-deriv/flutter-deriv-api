@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the OHLC class from the ohlc library, for the Dart programming language.">
+  <title>OHLC class - ohlc library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../static-assets/styles.css?v1">
+  <link rel="icon" href="../static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href="../"
+      data-using-base-href="false">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../index.html">flutter_deriv_api</a></li>
+    <li><a href="../api_common_tick_ohlc/api_common_tick_ohlc-library.html">ohlc</a></li>
+    <li class="self-crumb">OHLC class</li>
+  </ol>
+  <div class="self-name">OHLC</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+
+  <div id="dartdoc-main-content" class="main-content">
+      <div>
+<h1><span class="kind-class">OHLC</span> class 
+    <a href="https://dart.dev/null-safety" class="feature feature-null-safety" title="Supports the null safety language feature.">Null safety</a>
+ 
+</h1></div>
+
+    
+<section class="desc markdown">
+  <p>OHLC class, represents price of the symbol over time.</p>
+</section>
+
+
+    <section>
+      <dl class="dl-horizontal">
+        <dt>Inheritance</dt>
+        <dd><ul class="gt-separated dark clazz-relationships">
+          <li><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></li>
+          <li><a href="../api_models_api_base_model/APIBaseModel-class.html">APIBaseModel</a></li>
+          <li><a href="../api_common_models_tick_base_model/TickBaseModel-class.html">TickBaseModel</a></li>
+          <li><a href="../api_common_tick_tick_base/TickBase-class.html">TickBase</a></li>
+          <li>OHLC</li>
+        </ul></dd>
+
+
+
+
+
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="constructors">
+      <h2>Constructors</h2>
+
+      <dl class="constructor-summary-list">
+        <dt id="OHLC" class="callable">
+          <span class="name"><a href="../api_common_tick_ohlc/OHLC/OHLC.html">OHLC</a></span><span class="signature">(<span class="parameter" id="-param-close">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">close</span>, </span><span class="parameter" id="-param-granularity"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">granularity</span>, </span><span class="parameter" id="-param-high"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">high</span>, </span><span class="parameter" id="-param-low"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">low</span>, </span><span class="parameter" id="-param-open"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">open</span>, </span><span class="parameter" id="-param-openTime"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">openTime</span>, </span><span class="parameter" id="-param-epoch"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">epoch</span>, </span><span class="parameter" id="-param-id"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">id</span>, </span><span class="parameter" id="-param-pipeSize"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">pipeSize</span>, </span><span class="parameter" id="-param-symbol"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">symbol</span>, </span><span class="parameter" id="-param-subscriptionInformation"><span class="type-annotation"><a href="../api_models_subscription_model/SubscriptionModel-class.html">SubscriptionModel</a>?</span> <span class="parameter-name">subscriptionInformation</span>}</span>)</span>
+        </dt>
+        <dd>
+          Initializes 
+        </dd>
+        <dt id="OHLC.fromJson" class="callable">
+          <span class="name"><a href="../api_common_tick_ohlc/OHLC/OHLC.fromJson.html">OHLC.fromJson</a></span><span class="signature">(<span class="parameter" id="fromJson-param-json"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>, <span class="type-parameter">dynamic</span>&gt;</span></span> <span class="parameter-name">json</span>, </span><span class="parameter" id="fromJson-param-subscriptionJson">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>, <span class="type-parameter">dynamic</span>&gt;</span>?</span> <span class="parameter-name">subscriptionJson</span>}</span>)</span>
+        </dt>
+        <dd>
+          Creates an instance from JSON 
+          <div class="constructor-modifier features">factory</div>
+        </dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="instance-properties">
+      <h2>Properties</h2>
+
+      <dl class="properties">
+        <dt id="close" class="property">
+  <span class="name"><a href="../api_common_tick_ohlc/OHLC/close.html">close</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd>
+  Close 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="epoch" class="property inherited">
+  <span class="name"><a href="../api_common_models_tick_base_model/TickBaseModel/epoch.html">epoch</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Epoch time of the tick 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="granularity" class="property">
+  <span class="name"><a href="../api_common_tick_ohlc/OHLC/granularity.html">granularity</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> 
+
+</dt>
+<dd>
+  Granularity 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="hashCode" class="property inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/hashCode.html">hashCode</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> 
+
+</dt>
+<dd class="inherited">
+  The hash code for this object. <a href="https://api.flutter.dev/flutter/dart-core/Object/hashCode.html">[...]</a>
+  <div class="features">read-only, inherited</div>
+
+</dd>
+
+        <dt id="high" class="property">
+  <span class="name"><a href="../api_common_tick_ohlc/OHLC/high.html">high</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd>
+  High 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="id" class="property inherited">
+  <span class="name"><a href="../api_common_models_tick_base_model/TickBaseModel/id.html">id</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  A stream ID that can be used to cancel this stream using
+the Forget request 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="low" class="property">
+  <span class="name"><a href="../api_common_tick_ohlc/OHLC/low.html">low</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd>
+  Low 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="open" class="property">
+  <span class="name"><a href="../api_common_tick_ohlc/OHLC/open.html">open</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> 
+
+</dt>
+<dd>
+  Open 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="openTime" class="property">
+  <span class="name"><a href="../api_common_tick_ohlc/OHLC/openTime.html">openTime</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> 
+
+</dt>
+<dd>
+  Open time 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="pipSize" class="property inherited">
+  <span class="name"><a href="../api_common_models_tick_base_model/TickBaseModel/pipSize.html">pipSize</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Indicates the number of decimal points that
+the returned amounts must be displayed with 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="runtimeType" class="property inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Type-class.html">Type</a></span> 
+
+</dt>
+<dd class="inherited">
+  A representation of the runtime type of the object. 
+  <div class="features">read-only, inherited</div>
+
+</dd>
+
+        <dt id="subscriptionInformation" class="property inherited">
+  <span class="name"><a href="../api_common_tick_tick_base/TickBase/subscriptionInformation.html">subscriptionInformation</a></span>
+  <span class="signature">&#8594; <a href="../api_models_subscription_model/SubscriptionModel-class.html">SubscriptionModel</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Subscription information 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="symbol" class="property inherited">
+  <span class="name"><a href="../api_common_models_tick_base_model/TickBaseModel/symbol.html">symbol</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Symbol 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="instance-methods">
+      <h2>Methods</h2>
+      <dl class="callables">
+        <dt id="copyWith" class="callable">
+  <span class="name"><a href="../api_common_tick_ohlc/OHLC/copyWith.html">copyWith</a></span><span class="signature">(<wbr><span class="parameter" id="copyWith-param-close">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">close</span>, </span><span class="parameter" id="copyWith-param-granularity"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">granularity</span>, </span><span class="parameter" id="copyWith-param-high"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">high</span>, </span><span class="parameter" id="copyWith-param-low"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">low</span>, </span><span class="parameter" id="copyWith-param-open"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">open</span>, </span><span class="parameter" id="copyWith-param-openTime"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">openTime</span>, </span><span class="parameter" id="copyWith-param-epoch"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">epoch</span>, </span><span class="parameter" id="copyWith-param-id"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">id</span>, </span><span class="parameter" id="copyWith-param-pipSize"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">pipSize</span>, </span><span class="parameter" id="copyWith-param-symbol"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">symbol</span>, </span><span class="parameter" id="copyWith-param-subscriptionInformation"><span class="type-annotation"><a href="../api_models_subscription_model/SubscriptionModel-class.html">SubscriptionModel</a>?</span> <span class="parameter-name">subscriptionInformation</span>}</span>)
+    <span class="returntype parameter">&#8594; <a href="../api_common_tick_ohlc/OHLC-class.html">OHLC</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Creates a copy of instance with given parameters 
+  <div class="features">override</div>
+
+</dd>
+
+        <dt id="noSuchMethod" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></span><span class="signature">(<wbr><span class="parameter" id="noSuchMethod-param-invocation"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Invocation-class.html">Invocation</a></span> <span class="parameter-name">invocation</span></span>)
+    <span class="returntype parameter">&#8594; dynamic</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Invoked when a non-existent method or property is accessed. <a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">[...]</a>
+  <div class="features">inherited</div>
+
+</dd>
+
+        <dt id="toString" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/toString.html">toString</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  A string representation of this object. <a href="https://api.flutter.dev/flutter/dart-core/Object/toString.html">[...]</a>
+  <div class="features">inherited</div>
+
+</dd>
+
+        <dt id="unsubscribe" class="callable inherited">
+  <span class="name"><a href="../api_common_tick_tick_base/TickBase/unsubscribe.html">unsubscribe</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../api_common_forget_forget/Forget-class.html">Forget</a>?</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Unsubscribes from tick stream <a href="../api_common_tick_tick_base/TickBase/unsubscribe.html">[...]</a>
+  <div class="features">inherited</div>
+
+</dd>
+
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor inherited" id="operators">
+      <h2>Operators</h2>
+      <dl class="callables">
+        <dt id="operator ==" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/operator_equals.html">operator ==</a></span><span class="signature">(<wbr><span class="parameter" id="==-param-other"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">other</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  The equality operator. <a href="https://api.flutter.dev/flutter/dart-core/Object/operator_equals.html">[...]</a>
+  <div class="features">inherited</div>
+
+</dd>
+
+      </dl>
+    </section>
+
+
+    <section class="summary offset-anchor" id="static-methods">
+      <h2>Static Methods</h2>
+      <dl class="callables">
+        <dt id="unsubscribeAllOHLC" class="callable">
+  <span class="name"><a href="../api_common_tick_ohlc/OHLC/unsubscribeAllOHLC.html">unsubscribeAllOHLC</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../api_common_forget_forget_all/ForgetAll-class.html">ForgetAll</a></span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Unsubscribes all OHLC. <a href="../api_common_tick_ohlc/OHLC/unsubscribeAllOHLC.html">[...]</a>
+  
+
+</dd>
+
+      </dl>
+    </section>
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+  <li><a href="../index.html">flutter_deriv_api</a></li>
+  <li><a href="../api_common_tick_ohlc/api_common_tick_ohlc-library.html">ohlc</a></li>
+  <li class="self-crumb">OHLC class</li>
+</ol>
+
+
+    <h5>ohlc library</h5>
+    <ol>
+  <li class="section-title"><a href="../api_common_tick_ohlc/api_common_tick_ohlc-library.html#classes">Classes</a></li>
+  <li><a href="../api_common_tick_ohlc/OHLC-class.html">OHLC</a></li>
+
+
+
+
+
+
+
+
+</ol>
+
+  </div>
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+    <ol>
+
+    <li class="section-title"><a href="../api_common_tick_ohlc/OHLC-class.html#constructors">Constructors</a></li>
+    <li><a href="../api_common_tick_ohlc/OHLC/OHLC.html">OHLC</a></li>
+    <li><a href="../api_common_tick_ohlc/OHLC/OHLC.fromJson.html">fromJson</a></li>
+
+
+    <li class="section-title">
+      <a href="../api_common_tick_ohlc/OHLC-class.html#instance-properties">Properties</a>
+    </li>
+    <li><a href="../api_common_tick_ohlc/OHLC/close.html">close</a></li>
+    <li class="inherited"><a href="../api_common_models_tick_base_model/TickBaseModel/epoch.html">epoch</a></li>
+    <li><a href="../api_common_tick_ohlc/OHLC/granularity.html">granularity</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/hashCode.html">hashCode</a></li>
+    <li><a href="../api_common_tick_ohlc/OHLC/high.html">high</a></li>
+    <li class="inherited"><a href="../api_common_models_tick_base_model/TickBaseModel/id.html">id</a></li>
+    <li><a href="../api_common_tick_ohlc/OHLC/low.html">low</a></li>
+    <li><a href="../api_common_tick_ohlc/OHLC/open.html">open</a></li>
+    <li><a href="../api_common_tick_ohlc/OHLC/openTime.html">openTime</a></li>
+    <li class="inherited"><a href="../api_common_models_tick_base_model/TickBaseModel/pipSize.html">pipSize</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></li>
+    <li class="inherited"><a href="../api_common_tick_tick_base/TickBase/subscriptionInformation.html">subscriptionInformation</a></li>
+    <li class="inherited"><a href="../api_common_models_tick_base_model/TickBaseModel/symbol.html">symbol</a></li>
+
+    <li class="section-title"><a href="../api_common_tick_ohlc/OHLC-class.html#instance-methods">Methods</a></li>
+    <li><a href="../api_common_tick_ohlc/OHLC/copyWith.html">copyWith</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/toString.html">toString</a></li>
+    <li class="inherited"><a href="../api_common_tick_tick_base/TickBase/unsubscribe.html">unsubscribe</a></li>
+
+    <li class="section-title inherited"><a href="../api_common_tick_ohlc/OHLC-class.html#operators">Operators</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/operator_equals.html">operator ==</a></li>
+
+
+
+    <li class="section-title"><a href="../api_common_tick_ohlc/OHLC-class.html#static-methods">Static methods</a></li>
+    <li><a href="../api_common_tick_ohlc/OHLC/unsubscribeAllOHLC.html">unsubscribeAllOHLC</a></li>
+
+</ol>
+
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    flutter_deriv_api
+      0.0.1
+  </span>
+
+  
+</footer>
+
+
+
+<script src="../static-assets/highlight.pack.js?v1"></script>
+<script src="../static-assets/script.js?v1"></script>
+
+
+
+</body>
+
+</html>
+

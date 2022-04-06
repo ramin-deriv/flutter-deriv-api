@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the AccountSettings class from the account_settings library, for the Dart programming language.">
+  <title>AccountSettings class - account_settings library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../static-assets/styles.css?v1">
+  <link rel="icon" href="../static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href="../"
+      data-using-base-href="false">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../index.html">flutter_deriv_api</a></li>
+    <li><a href="../api_account_account_settings_account_settings/api_account_account_settings_account_settings-library.html">account_settings</a></li>
+    <li class="self-crumb">AccountSettings class</li>
+  </ol>
+  <div class="self-name">AccountSettings</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+
+  <div id="dartdoc-main-content" class="main-content">
+      <div>
+<h1><span class="kind-class">AccountSettings</span> class 
+    <a href="https://dart.dev/null-safety" class="feature feature-null-safety" title="Supports the null safety language feature.">Null safety</a>
+ 
+</h1></div>
+
+    
+<section class="desc markdown">
+  <p>User information and settings (email, date of birth, address etc).</p>
+</section>
+
+
+    <section>
+      <dl class="dl-horizontal">
+        <dt>Inheritance</dt>
+        <dd><ul class="gt-separated dark clazz-relationships">
+          <li><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></li>
+          <li><a href="../api_models_api_base_model/APIBaseModel-class.html">APIBaseModel</a></li>
+          <li><a href="../api_account_models_account_settings_model/AccountSettingsModel-class.html">AccountSettingsModel</a></li>
+          <li>AccountSettings</li>
+        </ul></dd>
+
+
+
+
+
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="constructors">
+      <h2>Constructors</h2>
+
+      <dl class="constructor-summary-list">
+        <dt id="AccountSettings" class="callable">
+          <span class="name"><a href="../api_account_account_settings_account_settings/AccountSettings/AccountSettings.html">AccountSettings</a></span><span class="signature">(<span class="parameter" id="-param-accountOpeningReason">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">accountOpeningReason</span>, </span><span class="parameter" id="-param-addressCity"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">addressCity</span>, </span><span class="parameter" id="-param-addressLine1"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">addressLine1</span>, </span><span class="parameter" id="-param-addressLine2"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">addressLine2</span>, </span><span class="parameter" id="-param-addressPostcode"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">addressPostcode</span>, </span><span class="parameter" id="-param-addressState"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">addressState</span>, </span><span class="parameter" id="-param-allowCopiers"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">allowCopiers</span>, </span><span class="parameter" id="-param-citizen"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">citizen</span>, </span><span class="parameter" id="-param-clientTncStatus"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">clientTncStatus</span>, </span><span class="parameter" id="-param-country"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">country</span>, </span><span class="parameter" id="-param-countryCode"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">countryCode</span>, </span><span class="parameter" id="-param-dateOfBirth"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">dateOfBirth</span>, </span><span class="parameter" id="-param-email"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">email</span>, </span><span class="parameter" id="-param-emailConsent"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">emailConsent</span>, </span><span class="parameter" id="-param-firstName"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">firstName</span>, </span><span class="parameter" id="-param-hasSecretAnswer"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">hasSecretAnswer</span>, </span><span class="parameter" id="-param-isAuthenticatedPaymentAgent"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isAuthenticatedPaymentAgent</span>, </span><span class="parameter" id="-param-lastName"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">lastName</span>, </span><span class="parameter" id="-param-phone"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">phone</span>, </span><span class="parameter" id="-param-placeOfBirth"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">placeOfBirth</span>, </span><span class="parameter" id="-param-requestProfessionalStatus"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">requestProfessionalStatus</span>, </span><span class="parameter" id="-param-residence"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">residence</span>, </span><span class="parameter" id="-param-salutation"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">salutation</span>, </span><span class="parameter" id="-param-taxIdentificationNumber"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">taxIdentificationNumber</span>, </span><span class="parameter" id="-param-taxResidence"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">taxResidence</span>, </span><span class="parameter" id="-param-userHash"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">userHash</span>}</span>)</span>
+        </dt>
+        <dd>
+          Initializes 
+        </dd>
+        <dt id="AccountSettings.fromJson" class="callable">
+          <span class="name"><a href="../api_account_account_settings_account_settings/AccountSettings/AccountSettings.fromJson.html">AccountSettings.fromJson</a></span><span class="signature">(<span class="parameter" id="fromJson-param-json"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>, <span class="type-parameter">dynamic</span>&gt;</span></span> <span class="parameter-name">json</span></span>)</span>
+        </dt>
+        <dd>
+          Generates an instance from JSON 
+          <div class="constructor-modifier features">factory</div>
+        </dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor inherited" id="instance-properties">
+      <h2>Properties</h2>
+
+      <dl class="properties">
+        <dt id="accountOpeningReason" class="property inherited">
+  <span class="name"><a href="../api_account_models_account_settings_model/AccountSettingsModel/accountOpeningReason.html">accountOpeningReason</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Purpose and reason for requesting the account opening.
+Only applicable for real money account. 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="addressCity" class="property inherited">
+  <span class="name"><a href="../api_account_models_account_settings_model/AccountSettingsModel/addressCity.html">addressCity</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  City (note: not set for virtual-money accounts) 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="addressLine1" class="property inherited">
+  <span class="name"><a href="../api_account_models_account_settings_model/AccountSettingsModel/addressLine1.html">addressLine1</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Address line 1 (note: not set for virtual-money accounts) 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="addressLine2" class="property inherited">
+  <span class="name"><a href="../api_account_models_account_settings_model/AccountSettingsModel/addressLine2.html">addressLine2</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Address line 2 (note: not set for virtual-money accounts) 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="addressPostcode" class="property inherited">
+  <span class="name"><a href="../api_account_models_account_settings_model/AccountSettingsModel/addressPostcode.html">addressPostcode</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Post Code (note: not set for virtual-money accounts) 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="addressState" class="property inherited">
+  <span class="name"><a href="../api_account_models_account_settings_model/AccountSettingsModel/addressState.html">addressState</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  State (note: not set for virtual-money accounts) 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="allowCopiers" class="property inherited">
+  <span class="name"><a href="../api_account_models_account_settings_model/AccountSettingsModel/allowCopiers.html">allowCopiers</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Boolean value true or false, indicating permission to allow others to follow your
+trades. Note: not applicable for Virtual account. Only allow for real money account. 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="citizen" class="property inherited">
+  <span class="name"><a href="../api_account_models_account_settings_model/AccountSettingsModel/citizen.html">citizen</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Country of legal citizenship, 2-letter country code. 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="clientTncStatus" class="property inherited">
+  <span class="name"><a href="../api_account_models_account_settings_model/AccountSettingsModel/clientTncStatus.html">clientTncStatus</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Latest terms and conditions version accepted by client 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="country" class="property inherited">
+  <span class="name"><a href="../api_account_models_account_settings_model/AccountSettingsModel/country.html">country</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  User Country (same as residence field) - deprecated 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="countryCode" class="property inherited">
+  <span class="name"><a href="../api_account_models_account_settings_model/AccountSettingsModel/countryCode.html">countryCode</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  2-letter country code ISO standard 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="dateOfBirth" class="property inherited">
+  <span class="name"><a href="../api_account_models_account_settings_model/AccountSettingsModel/dateOfBirth.html">dateOfBirth</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Epoch of user's birthday (note: not set for virtual-money accounts) 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="email" class="property inherited">
+  <span class="name"><a href="../api_account_models_account_settings_model/AccountSettingsModel/email.html">email</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  User Email 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="emailConsent" class="property inherited">
+  <span class="name"><a href="../api_account_models_account_settings_model/AccountSettingsModel/emailConsent.html">emailConsent</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Boolean value true or false, indicating permission to use email address for any
+contact which may include marketing 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="firstName" class="property inherited">
+  <span class="name"><a href="../api_account_models_account_settings_model/AccountSettingsModel/firstName.html">firstName</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  First name (note: not set for virtual-money accounts) 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="hashCode" class="property inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/hashCode.html">hashCode</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> 
+
+</dt>
+<dd class="inherited">
+  The hash code for this object. <a href="https://api.flutter.dev/flutter/dart-core/Object/hashCode.html">[...]</a>
+  <div class="features">read-only, inherited</div>
+
+</dd>
+
+        <dt id="hasSecretAnswer" class="property inherited">
+  <span class="name"><a href="../api_account_models_account_settings_model/AccountSettingsModel/hasSecretAnswer.html">hasSecretAnswer</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Returns true if the client has a secret answer, 0 otherwise. 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="isAuthenticatedPaymentAgent" class="property inherited">
+  <span class="name"><a href="../api_account_models_account_settings_model/AccountSettingsModel/isAuthenticatedPaymentAgent.html">isAuthenticatedPaymentAgent</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Boolean value true or false, indicating whether is payment agent
+(note: not applicable for virtual money accounts) 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="lastName" class="property inherited">
+  <span class="name"><a href="../api_account_models_account_settings_model/AccountSettingsModel/lastName.html">lastName</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Last name (note: not set for virtual-money accounts) 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="phone" class="property inherited">
+  <span class="name"><a href="../api_account_models_account_settings_model/AccountSettingsModel/phone.html">phone</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Telephone (note: not set for virtual-money accounts) 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="placeOfBirth" class="property inherited">
+  <span class="name"><a href="../api_account_models_account_settings_model/AccountSettingsModel/placeOfBirth.html">placeOfBirth</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Place of birth, 2-letter country code. 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="requestProfessionalStatus" class="property inherited">
+  <span class="name"><a href="../api_account_models_account_settings_model/AccountSettingsModel/requestProfessionalStatus.html">requestProfessionalStatus</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Boolean value true or false, indicating if client has requested professional status. 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="residence" class="property inherited">
+  <span class="name"><a href="../api_account_models_account_settings_model/AccountSettingsModel/residence.html">residence</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  User Country 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="runtimeType" class="property inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Type-class.html">Type</a></span> 
+
+</dt>
+<dd class="inherited">
+  A representation of the runtime type of the object. 
+  <div class="features">read-only, inherited</div>
+
+</dd>
+
+        <dt id="salutation" class="property inherited">
+  <span class="name"><a href="../api_account_models_account_settings_model/AccountSettingsModel/salutation.html">salutation</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Salutation (note: not set for virtual-money accounts) 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="taxIdentificationNumber" class="property inherited">
+  <span class="name"><a href="../api_account_models_account_settings_model/AccountSettingsModel/taxIdentificationNumber.html">taxIdentificationNumber</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Tax identification number. Only applicable for real money account. 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="taxResidence" class="property inherited">
+  <span class="name"><a href="../api_account_models_account_settings_model/AccountSettingsModel/taxResidence.html">taxResidence</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Residence for tax purpose. Comma separated iso country code if multiple
+jurisdictions. Only applicable for real money account. 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+        <dt id="userHash" class="property inherited">
+  <span class="name"><a href="../api_account_models_account_settings_model/AccountSettingsModel/userHash.html">userHash</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  Hash generated using user details to verify whether the user is legitimate
+for our customer support system. 
+  <div class="features">final, inherited</div>
+
+</dd>
+
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="instance-methods">
+      <h2>Methods</h2>
+      <dl class="callables">
+        <dt id="changeSetting" class="callable">
+  <span class="name"><a href="../api_account_account_settings_account_settings/AccountSettings/changeSetting.html">changeSetting</a></span><span class="signature">(<wbr><span class="parameter" id="changeSetting-param-secretAnswer">{<span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">secretAnswer</span>, </span><span class="parameter" id="changeSetting-param-secretQuestion"><span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">secretQuestion</span>}</span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../api_account_models_set_account_setting_model/SetAccountSettingModel-class.html">SetAccountSettingModel</a></span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Changes user's setting 
+  
+
+</dd>
+
+        <dt id="copyWith" class="callable">
+  <span class="name"><a href="../api_account_account_settings_account_settings/AccountSettings/copyWith.html">copyWith</a></span><span class="signature">(<wbr><span class="parameter" id="copyWith-param-accountOpeningReason">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">accountOpeningReason</span>, </span><span class="parameter" id="copyWith-param-addressCity"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">addressCity</span>, </span><span class="parameter" id="copyWith-param-addressLine1"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">addressLine1</span>, </span><span class="parameter" id="copyWith-param-addressLine2"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">addressLine2</span>, </span><span class="parameter" id="copyWith-param-addressPostcode"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">addressPostcode</span>, </span><span class="parameter" id="copyWith-param-addressState"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">addressState</span>, </span><span class="parameter" id="copyWith-param-allowCopiers"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">allowCopiers</span>, </span><span class="parameter" id="copyWith-param-citizen"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">citizen</span>, </span><span class="parameter" id="copyWith-param-clientTncStatus"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">clientTncStatus</span>, </span><span class="parameter" id="copyWith-param-country"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">country</span>, </span><span class="parameter" id="copyWith-param-countryCode"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">countryCode</span>, </span><span class="parameter" id="copyWith-param-dateOfBirth"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/DateTime-class.html">DateTime</a>?</span> <span class="parameter-name">dateOfBirth</span>, </span><span class="parameter" id="copyWith-param-email"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">email</span>, </span><span class="parameter" id="copyWith-param-emailConsent"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">emailConsent</span>, </span><span class="parameter" id="copyWith-param-firstName"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">firstName</span>, </span><span class="parameter" id="copyWith-param-hasSecretAnswer"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">hasSecretAnswer</span>, </span><span class="parameter" id="copyWith-param-isAuthenticatedPaymentAgent"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isAuthenticatedPaymentAgent</span>, </span><span class="parameter" id="copyWith-param-lastName"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">lastName</span>, </span><span class="parameter" id="copyWith-param-phone"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">phone</span>, </span><span class="parameter" id="copyWith-param-placeOfBirth"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">placeOfBirth</span>, </span><span class="parameter" id="copyWith-param-requestProfessionalStatus"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">requestProfessionalStatus</span>, </span><span class="parameter" id="copyWith-param-residence"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">residence</span>, </span><span class="parameter" id="copyWith-param-salutation"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">salutation</span>, </span><span class="parameter" id="copyWith-param-taxIdentificationNumber"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">taxIdentificationNumber</span>, </span><span class="parameter" id="copyWith-param-taxResidence"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">taxResidence</span>, </span><span class="parameter" id="copyWith-param-userHash"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">userHash</span>}</span>)
+    <span class="returntype parameter">&#8594; <a href="../api_account_account_settings_account_settings/AccountSettings-class.html">AccountSettings</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Generates a copy of instance with given parameters 
+  
+
+</dd>
+
+        <dt id="noSuchMethod" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></span><span class="signature">(<wbr><span class="parameter" id="noSuchMethod-param-invocation"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Invocation-class.html">Invocation</a></span> <span class="parameter-name">invocation</span></span>)
+    <span class="returntype parameter">&#8594; dynamic</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Invoked when a non-existent method or property is accessed. <a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">[...]</a>
+  <div class="features">inherited</div>
+
+</dd>
+
+        <dt id="toString" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/toString.html">toString</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  A string representation of this object. <a href="https://api.flutter.dev/flutter/dart-core/Object/toString.html">[...]</a>
+  <div class="features">inherited</div>
+
+</dd>
+
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor inherited" id="operators">
+      <h2>Operators</h2>
+      <dl class="callables">
+        <dt id="operator ==" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/operator_equals.html">operator ==</a></span><span class="signature">(<wbr><span class="parameter" id="==-param-other"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">other</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  The equality operator. <a href="https://api.flutter.dev/flutter/dart-core/Object/operator_equals.html">[...]</a>
+  <div class="features">inherited</div>
+
+</dd>
+
+      </dl>
+    </section>
+
+
+    <section class="summary offset-anchor" id="static-methods">
+      <h2>Static Methods</h2>
+      <dl class="callables">
+        <dt id="changeAccountSetting" class="callable">
+  <span class="name"><a href="../api_account_account_settings_account_settings/AccountSettings/changeAccountSetting.html">changeAccountSetting</a></span><span class="signature">(<wbr><span class="parameter" id="changeAccountSetting-param-request"><span class="type-annotation"><a href="../basic_api_generated_set_settings_send/SetSettingsRequest-class.html">SetSettingsRequest</a></span> <span class="parameter-name">request</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../api_account_models_set_account_setting_model/SetAccountSettingModel-class.html">SetAccountSettingModel</a></span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Changes the user's settings with parameters specified as <a href="../basic_api_generated_set_settings_send/SetSettingsRequest-class.html">SetSettingsRequest</a> <a href="../api_account_account_settings_account_settings/AccountSettings/changeAccountSetting.html">[...]</a>
+  
+
+</dd>
+
+        <dt id="fetchAccountSetting" class="callable">
+  <span class="name"><a href="../api_account_account_settings_account_settings/AccountSettings/fetchAccountSetting.html">fetchAccountSetting</a></span><span class="signature">(<wbr><span class="parameter" id="fetchAccountSetting-param-request">[<span class="type-annotation"><a href="../basic_api_generated_get_settings_send/GetSettingsRequest-class.html">GetSettingsRequest</a>?</span> <span class="parameter-name">request</span>]</span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../api_account_account_settings_account_settings/AccountSettings-class.html">AccountSettings</a></span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Gets user's settings (email, date of birth, address etc) <a href="../api_account_account_settings_account_settings/AccountSettings/fetchAccountSetting.html">[...]</a>
+  
+
+</dd>
+
+      </dl>
+    </section>
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+  <li><a href="../index.html">flutter_deriv_api</a></li>
+  <li><a href="../api_account_account_settings_account_settings/api_account_account_settings_account_settings-library.html">account_settings</a></li>
+  <li class="self-crumb">AccountSettings class</li>
+</ol>
+
+
+    <h5>account_settings library</h5>
+    <ol>
+  <li class="section-title"><a href="../api_account_account_settings_account_settings/api_account_account_settings_account_settings-library.html#classes">Classes</a></li>
+  <li><a href="../api_account_account_settings_account_settings/AccountSettings-class.html">AccountSettings</a></li>
+
+
+
+
+
+
+
+
+</ol>
+
+  </div>
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+    <ol>
+
+    <li class="section-title"><a href="../api_account_account_settings_account_settings/AccountSettings-class.html#constructors">Constructors</a></li>
+    <li><a href="../api_account_account_settings_account_settings/AccountSettings/AccountSettings.html">AccountSettings</a></li>
+    <li><a href="../api_account_account_settings_account_settings/AccountSettings/AccountSettings.fromJson.html">fromJson</a></li>
+
+
+    <li class="section-title inherited">
+      <a href="../api_account_account_settings_account_settings/AccountSettings-class.html#instance-properties">Properties</a>
+    </li>
+    <li class="inherited"><a href="../api_account_models_account_settings_model/AccountSettingsModel/accountOpeningReason.html">accountOpeningReason</a></li>
+    <li class="inherited"><a href="../api_account_models_account_settings_model/AccountSettingsModel/addressCity.html">addressCity</a></li>
+    <li class="inherited"><a href="../api_account_models_account_settings_model/AccountSettingsModel/addressLine1.html">addressLine1</a></li>
+    <li class="inherited"><a href="../api_account_models_account_settings_model/AccountSettingsModel/addressLine2.html">addressLine2</a></li>
+    <li class="inherited"><a href="../api_account_models_account_settings_model/AccountSettingsModel/addressPostcode.html">addressPostcode</a></li>
+    <li class="inherited"><a href="../api_account_models_account_settings_model/AccountSettingsModel/addressState.html">addressState</a></li>
+    <li class="inherited"><a href="../api_account_models_account_settings_model/AccountSettingsModel/allowCopiers.html">allowCopiers</a></li>
+    <li class="inherited"><a href="../api_account_models_account_settings_model/AccountSettingsModel/citizen.html">citizen</a></li>
+    <li class="inherited"><a href="../api_account_models_account_settings_model/AccountSettingsModel/clientTncStatus.html">clientTncStatus</a></li>
+    <li class="inherited"><a href="../api_account_models_account_settings_model/AccountSettingsModel/country.html">country</a></li>
+    <li class="inherited"><a href="../api_account_models_account_settings_model/AccountSettingsModel/countryCode.html">countryCode</a></li>
+    <li class="inherited"><a href="../api_account_models_account_settings_model/AccountSettingsModel/dateOfBirth.html">dateOfBirth</a></li>
+    <li class="inherited"><a href="../api_account_models_account_settings_model/AccountSettingsModel/email.html">email</a></li>
+    <li class="inherited"><a href="../api_account_models_account_settings_model/AccountSettingsModel/emailConsent.html">emailConsent</a></li>
+    <li class="inherited"><a href="../api_account_models_account_settings_model/AccountSettingsModel/firstName.html">firstName</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/hashCode.html">hashCode</a></li>
+    <li class="inherited"><a href="../api_account_models_account_settings_model/AccountSettingsModel/hasSecretAnswer.html">hasSecretAnswer</a></li>
+    <li class="inherited"><a href="../api_account_models_account_settings_model/AccountSettingsModel/isAuthenticatedPaymentAgent.html">isAuthenticatedPaymentAgent</a></li>
+    <li class="inherited"><a href="../api_account_models_account_settings_model/AccountSettingsModel/lastName.html">lastName</a></li>
+    <li class="inherited"><a href="../api_account_models_account_settings_model/AccountSettingsModel/phone.html">phone</a></li>
+    <li class="inherited"><a href="../api_account_models_account_settings_model/AccountSettingsModel/placeOfBirth.html">placeOfBirth</a></li>
+    <li class="inherited"><a href="../api_account_models_account_settings_model/AccountSettingsModel/requestProfessionalStatus.html">requestProfessionalStatus</a></li>
+    <li class="inherited"><a href="../api_account_models_account_settings_model/AccountSettingsModel/residence.html">residence</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></li>
+    <li class="inherited"><a href="../api_account_models_account_settings_model/AccountSettingsModel/salutation.html">salutation</a></li>
+    <li class="inherited"><a href="../api_account_models_account_settings_model/AccountSettingsModel/taxIdentificationNumber.html">taxIdentificationNumber</a></li>
+    <li class="inherited"><a href="../api_account_models_account_settings_model/AccountSettingsModel/taxResidence.html">taxResidence</a></li>
+    <li class="inherited"><a href="../api_account_models_account_settings_model/AccountSettingsModel/userHash.html">userHash</a></li>
+
+    <li class="section-title"><a href="../api_account_account_settings_account_settings/AccountSettings-class.html#instance-methods">Methods</a></li>
+    <li><a href="../api_account_account_settings_account_settings/AccountSettings/changeSetting.html">changeSetting</a></li>
+    <li><a href="../api_account_account_settings_account_settings/AccountSettings/copyWith.html">copyWith</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/toString.html">toString</a></li>
+
+    <li class="section-title inherited"><a href="../api_account_account_settings_account_settings/AccountSettings-class.html#operators">Operators</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/operator_equals.html">operator ==</a></li>
+
+
+
+    <li class="section-title"><a href="../api_account_account_settings_account_settings/AccountSettings-class.html#static-methods">Static methods</a></li>
+    <li><a href="../api_account_account_settings_account_settings/AccountSettings/changeAccountSetting.html">changeAccountSetting</a></li>
+    <li><a href="../api_account_account_settings_account_settings/AccountSettings/fetchAccountSetting.html">fetchAccountSetting</a></li>
+
+</ol>
+
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    flutter_deriv_api
+      0.0.1
+  </span>
+
+  
+</footer>
+
+
+
+<script src="../static-assets/highlight.pack.js?v1"></script>
+<script src="../static-assets/script.js?v1"></script>
+
+
+
+</body>
+
+</html>
+

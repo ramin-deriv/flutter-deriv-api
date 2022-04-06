@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the websiteStatusResponse constant from the website_status_response library, for the Dart programming language.">
+  <title>websiteStatusResponse constant - website_status_response library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../static-assets/styles.css?v1">
+  <link rel="icon" href="../static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href="../"
+      data-using-base-href="false">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../index.html">flutter_deriv_api</a></li>
+    <li><a href="../services_connection_api_manager_mock_data_common_website_status_response/services_connection_api_manager_mock_data_common_website_status_response-library.html">website_status_response</a></li>
+    <li class="self-crumb">websiteStatusResponse constant</li>
+  </ol>
+  <div class="self-name">websiteStatusResponse</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+
+  <div id="dartdoc-main-content" class="main-content">
+      <div>
+<h1><span class="kind-top-level-property">websiteStatusResponse</span> top-level constant 
+    <a href="https://dart.dev/null-safety" class="feature feature-null-safety" title="Supports the null safety language feature.">Null safety</a>
+ 
+</h1></div>
+
+        <section class="multi-line-signature">
+          <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>
+          const <span class="name ">websiteStatusResponse</span>
+          
+
+        </section>
+        
+<section class="desc markdown">
+  <p>WebsiteStatus Response</p>
+</section>
+
+        
+<section class="summary source-code" id="source">
+  <h2><span>Implementation</span></h2>
+  <pre class="language-dart"><code class="language-dart">const String websiteStatusResponse = &#39;&#39;&#39;{
+  &quot;echo_req&quot;: {
+    &quot;website_status&quot;: 1
+  },
+  &quot;msg_type&quot;: &quot;website_status&quot;,
+  &quot;website_status&quot;: {
+    &quot;api_call_limits&quot;: {
+      &quot;max_proposal_subscription&quot;: {
+        &quot;applies_to&quot;: &quot;subscribing to proposal concurrently&quot;,
+        &quot;max&quot;: 5
+      },
+      &quot;max_requestes_general&quot;: {
+        &quot;applies_to&quot;: &quot;rest of calls&quot;,
+        &quot;hourly&quot;: 14400,
+        &quot;minutely&quot;: 180
+      },
+      &quot;max_requests_outcome&quot;: {
+        &quot;applies_to&quot;: &quot;portfolio, statement and proposal&quot;,
+        &quot;hourly&quot;: 1500,
+        &quot;minutely&quot;: 25
+      },
+      &quot;max_requests_pricing&quot;: {
+        &quot;applies_to&quot;: &quot;proposal and proposal_open_contract&quot;,
+        &quot;hourly&quot;: 3600,
+        &quot;minutely&quot;: 80
+      }
+    },
+    &quot;clients_country&quot;: &quot;us&quot;,
+    &quot;crypto_config&quot;: {
+      &quot;BTC&quot;: {
+        &quot;minimum_withdrawal&quot;: 0.00299415
+      },
+      &quot;ETH&quot;: {
+        &quot;minimum_withdrawal&quot;: 0.02389955
+      }
+    },
+    &quot;currencies_config&quot;: {
+      &quot;USD&quot;: {
+        &quot;fractional_digits&quot;: 2,
+        &quot;is_deposit_suspended&quot;: 0,
+        &quot;is_suspended&quot;: 0,
+        &quot;is_withdrawal_suspended&quot;: 0,
+        &quot;name&quot;: &quot;Australian Dollar&quot;,
+        &quot;stake_default&quot;: 10,
+        &quot;transfer_between_accounts&quot;: {
+          &quot;fees&quot;: {
+            &quot;BTC&quot;: 2,
+            &quot;ETH&quot;: 2,
+            &quot;EUR&quot;: 1
+          },
+          &quot;limits&quot;: {
+            &quot;max&quot;: 3825.96,
+            &quot;min&quot;: 1.53
+          }
+        },
+        &quot;type&quot;: &quot;fiat&quot;
+      },
+      &quot;BTC&quot;: {
+        &quot;fractional_digits&quot;: 8,
+        &quot;is_deposit_suspended&quot;: 0,
+        &quot;is_suspended&quot;: 0,
+        &quot;is_withdrawal_suspended&quot;: 0,
+        &quot;name&quot;: &quot;Bitcoin&quot;,
+        &quot;stake_default&quot;: 0.003,
+        &quot;transfer_between_accounts&quot;: {
+          &quot;fees&quot;: {
+            &quot;AUD&quot;: 2,
+            &quot;EUR&quot;: 2,
+            &quot;GBP&quot;: 2,
+            &quot;USD&quot;: 2
+          },
+          &quot;limits&quot;: {
+            &quot;max&quot;: 0.29963981,
+            &quot;min&quot;: 0.00011986
+          }
+        },
+        &quot;type&quot;: &quot;crypto&quot;
+      }
+    },
+    &quot;site_status&quot;: &quot;up&quot;,
+    &quot;supported_languages&quot;: [
+      &quot;EN&quot;,
+      &quot;ID&quot;,
+      &quot;RU&quot;,
+      &quot;ES&quot;
+    ],
+    &quot;terms_conditions_version&quot;: &quot;Version 48 2019-05-10&quot;
+  }
+}&#39;&#39;&#39;;</code></pre>
+</section>
+
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+  <li><a href="../index.html">flutter_deriv_api</a></li>
+  <li><a href="../services_connection_api_manager_mock_data_common_website_status_response/services_connection_api_manager_mock_data_common_website_status_response-library.html">website_status_response</a></li>
+  <li class="self-crumb">websiteStatusResponse constant</li>
+</ol>
+
+
+    <h5>website_status_response library</h5>
+    <ol>
+
+
+
+  <li class="section-title"><a href="../services_connection_api_manager_mock_data_common_website_status_response/services_connection_api_manager_mock_data_common_website_status_response-library.html#constants">Constants</a></li>
+  <li><a href="../services_connection_api_manager_mock_data_common_website_status_response/websiteStatusResponse-constant.html">websiteStatusResponse</a></li>
+
+
+
+
+
+</ol>
+
+  </div><!--/.sidebar-offcanvas-left-->
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    flutter_deriv_api
+      0.0.1
+  </span>
+
+  
+</footer>
+
+
+
+<script src="../static-assets/highlight.pack.js?v1"></script>
+<script src="../static-assets/script.js?v1"></script>
+
+
+
+</body>
+
+</html>
+

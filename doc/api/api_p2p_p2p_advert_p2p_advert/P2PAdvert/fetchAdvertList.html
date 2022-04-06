@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the fetchAdvertList method from the P2PAdvert class, for the Dart programming language.">
+  <title>fetchAdvertList method - P2PAdvert class - p2p_advert library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../../static-assets/styles.css?v1">
+  <link rel="icon" href="../../static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href="../../"
+      data-using-base-href="false">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../../index.html">flutter_deriv_api</a></li>
+    <li><a href="../../api_p2p_p2p_advert_p2p_advert/api_p2p_p2p_advert_p2p_advert-library.html">p2p_advert</a></li>
+    <li><a href="../../api_p2p_p2p_advert_p2p_advert/P2PAdvert-class.html">P2PAdvert</a></li>
+    <li class="self-crumb">fetchAdvertList method</li>
+  </ol>
+  <div class="self-name">fetchAdvertList</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+
+  <div id="dartdoc-main-content" class="main-content">
+      <div>
+<h1><span class="kind-method">fetchAdvertList</span> method 
+    <a href="https://dart.dev/null-safety" class="feature feature-null-safety" title="Supports the null safety language feature.">Null safety</a>
+</h1></div>
+
+    <section class="multi-line-signature">
+      
+
+<span class="returntype"><a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../../api_p2p_p2p_advert_p2p_advert/P2PAdvert-class.html">P2PAdvert</a>?</span>&gt;</span>?</span>&gt;</span></span>
+<span class="name ">fetchAdvertList</span>(<wbr><ol class="parameter-list"><li><span class="parameter" id="fetchAdvertList-param-request"><span class="type-annotation"><a href="../../basic_api_generated_p2p_advert_list_send/P2pAdvertListRequest-class.html">P2pAdvertListRequest</a></span> <span class="parameter-name">request</span></span></li>
+</ol>)
+
+      
+
+    </section>
+    
+<section class="desc markdown">
+  <p>Returns available adverts.</p>
+<p>For parameters information refer to <a href="../../basic_api_generated_p2p_advert_list_send/P2pAdvertListRequest-class.html">P2pAdvertListRequest</a>.
+Throws a <a href="../../api_p2p_p2p_advert_exceptions_p2p_advert_exception/P2PAdvertException-class.html">P2PAdvertException</a> if API response contains an error</p>
+</section>
+
+
+    
+<section class="summary source-code" id="source">
+  <h2><span>Implementation</span></h2>
+  <pre class="language-dart"><code class="language-dart">static Future&lt;List&lt;P2PAdvert?&gt;?&gt; fetchAdvertList(
+  P2pAdvertListRequest request,
+) async {
+  final P2pAdvertListResponse response =
+      await _api.call&lt;P2pAdvertListResponse&gt;(request: request);
+
+  checkException(
+    response: response,
+    exceptionCreator: ({BaseExceptionModel? baseExceptionModel}) =&gt;
+        P2PAdvertException(baseExceptionModel: baseExceptionModel),
+  );
+
+  return getListFromMap(
+    response.p2pAdvertList![&#39;list&#39;],
+    itemToTypeCallback: (dynamic item) =&gt; P2PAdvert.fromJson(item),
+  );
+}</code></pre>
+</section>
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+  <li><a href="../../index.html">flutter_deriv_api</a></li>
+  <li><a href="../../api_p2p_p2p_advert_p2p_advert/api_p2p_p2p_advert_p2p_advert-library.html">p2p_advert</a></li>
+  <li><a href="../../api_p2p_p2p_advert_p2p_advert/P2PAdvert-class.html">P2PAdvert</a></li>
+  <li class="self-crumb">fetchAdvertList method</li>
+</ol>
+
+
+    <h5>P2PAdvert class</h5>
+    <ol>
+
+    <li class="section-title"><a href="../../api_p2p_p2p_advert_p2p_advert/P2PAdvert-class.html#constructors">Constructors</a></li>
+    <li><a href="../../api_p2p_p2p_advert_p2p_advert/P2PAdvert/P2PAdvert.html">P2PAdvert</a></li>
+    <li><a href="../../api_p2p_p2p_advert_p2p_advert/P2PAdvert/P2PAdvert.fromJson.html">fromJson</a></li>
+
+
+    <li class="section-title inherited">
+      <a href="../../api_p2p_p2p_advert_p2p_advert/P2PAdvert-class.html#instance-properties">Properties</a>
+    </li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/accountCurrency.html">accountCurrency</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/advertiserDetails.html">advertiserDetails</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/amount.html">amount</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/amountDisplay.html">amountDisplay</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/contactInfo.html">contactInfo</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/counterpartyType.html">counterpartyType</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/country.html">country</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/createdTime.html">createdTime</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/description.html">description</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/hashCode.html">hashCode</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/id.html">id</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/isActive.html">isActive</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/localCurrency.html">localCurrency</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/maxOrderAmount.html">maxOrderAmount</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/maxOrderAmountDisplay.html">maxOrderAmountDisplay</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/maxOrderAmountLimit.html">maxOrderAmountLimit</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/maxOrderAmountLimitDisplay.html">maxOrderAmountLimitDisplay</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/minOrderAmount.html">minOrderAmount</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/minOrderAmountDisplay.html">minOrderAmountDisplay</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/minOrderAmountLimit.html">minOrderAmountLimit</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/minOrderAmountLimitDisplay.html">minOrderAmountLimitDisplay</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/paymentInfo.html">paymentInfo</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/paymentMethod.html">paymentMethod</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/price.html">price</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/priceDisplay.html">priceDisplay</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/rate.html">rate</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/rateDisplay.html">rateDisplay</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/remainingAmount.html">remainingAmount</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/remainingAmountDisplay.html">remainingAmountDisplay</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></li>
+    <li class="inherited"><a href="../../api_p2p_models_p2p_advert_model/P2PAdvertModel/type.html">type</a></li>
+
+    <li class="section-title"><a href="../../api_p2p_p2p_advert_p2p_advert/P2PAdvert-class.html#instance-methods">Methods</a></li>
+    <li><a href="../../api_p2p_p2p_advert_p2p_advert/P2PAdvert/activate.html">activate</a></li>
+    <li><a href="../../api_p2p_p2p_advert_p2p_advert/P2PAdvert/copyWith.html">copyWith</a></li>
+    <li><a href="../../api_p2p_p2p_advert_p2p_advert/P2PAdvert/createOrder.html">createOrder</a></li>
+    <li><a href="../../api_p2p_p2p_advert_p2p_advert/P2PAdvert/deactivate.html">deactivate</a></li>
+    <li><a href="../../api_p2p_p2p_advert_p2p_advert/P2PAdvert/delete.html">delete</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/toString.html">toString</a></li>
+    <li><a href="../../api_p2p_p2p_advert_p2p_advert/P2PAdvert/update.html">update</a></li>
+
+    <li class="section-title inherited"><a href="../../api_p2p_p2p_advert_p2p_advert/P2PAdvert-class.html#operators">Operators</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/operator_equals.html">operator ==</a></li>
+
+
+
+    <li class="section-title"><a href="../../api_p2p_p2p_advert_p2p_advert/P2PAdvert-class.html#static-methods">Static methods</a></li>
+    <li><a href="../../api_p2p_p2p_advert_p2p_advert/P2PAdvert/createAdvert.html">createAdvert</a></li>
+    <li><a href="../../api_p2p_p2p_advert_p2p_advert/P2PAdvert/fetchAdvert.html">fetchAdvert</a></li>
+    <li><a href="../../api_p2p_p2p_advert_p2p_advert/P2PAdvert/fetchAdvertList.html">fetchAdvertList</a></li>
+    <li><a href="../../api_p2p_p2p_advert_p2p_advert/P2PAdvert/updateAdvert.html">updateAdvert</a></li>
+
+</ol>
+
+  </div><!--/.sidebar-offcanvas-->
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    flutter_deriv_api
+      0.0.1
+  </span>
+
+  
+</footer>
+
+
+
+<script src="../../static-assets/highlight.pack.js?v1"></script>
+<script src="../../static-assets/script.js?v1"></script>
+
+
+
+</body>
+
+</html>
+

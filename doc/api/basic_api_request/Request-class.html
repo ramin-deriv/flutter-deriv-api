@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the Request class from the request library, for the Dart programming language.">
+  <title>Request class - request library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../static-assets/styles.css?v1">
+  <link rel="icon" href="../static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href="../"
+      data-using-base-href="false">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../index.html">flutter_deriv_api</a></li>
+    <li><a href="../basic_api_request/basic_api_request-library.html">request</a></li>
+    <li class="self-crumb">Request class</li>
+  </ol>
+  <div class="self-name">Request</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+
+  <div id="dartdoc-main-content" class="main-content">
+      <div>
+<h1><span class="kind-class">Request</span> class 
+    <a href="https://dart.dev/null-safety" class="feature feature-null-safety" title="Supports the null safety language feature.">Null safety</a>
+ 
+</h1></div>
+
+    
+<section class="desc markdown">
+  <p>Super class of all requests.</p>
+</section>
+
+
+    <section>
+      <dl class="dl-horizontal">
+        <dt>Inheritance</dt>
+        <dd><ul class="gt-separated dark clazz-relationships">
+          <li><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></li>
+          <li><a href="https://pub.dev/documentation/equatable/2.0.3/equatable/Equatable-class.html">Equatable</a></li>
+          <li>Request</li>
+        </ul></dd>
+
+
+
+        <dt>Implementers</dt>
+        <dd><ul class="comma-separated clazz-relationships">
+          <li><a href="../basic_api_generated_account_closure_send/AccountClosureRequest-class.html">AccountClosureRequest</a></li>
+          <li><a href="../basic_api_generated_account_security_send/AccountSecurityRequest-class.html">AccountSecurityRequest</a></li>
+          <li><a href="../basic_api_generated_account_statistics_send/AccountStatisticsRequest-class.html">AccountStatisticsRequest</a></li>
+          <li><a href="../basic_api_generated_active_symbols_send/ActiveSymbolsRequest-class.html">ActiveSymbolsRequest</a></li>
+          <li><a href="../basic_api_generated_affiliate_account_add_send/AffiliateAccountAddRequest-class.html">AffiliateAccountAddRequest</a></li>
+          <li><a href="../basic_api_generated_api_token_send/ApiTokenRequest-class.html">ApiTokenRequest</a></li>
+          <li><a href="../basic_api_generated_app_delete_send/AppDeleteRequest-class.html">AppDeleteRequest</a></li>
+          <li><a href="../basic_api_generated_app_get_send/AppGetRequest-class.html">AppGetRequest</a></li>
+          <li><a href="../basic_api_generated_app_list_send/AppListRequest-class.html">AppListRequest</a></li>
+          <li><a href="../basic_api_generated_app_markup_details_send/AppMarkupDetailsRequest-class.html">AppMarkupDetailsRequest</a></li>
+          <li><a href="../basic_api_generated_app_register_send/AppRegisterRequest-class.html">AppRegisterRequest</a></li>
+          <li><a href="../basic_api_generated_app_update_send/AppUpdateRequest-class.html">AppUpdateRequest</a></li>
+          <li><a href="../basic_api_generated_asset_index_send/AssetIndexRequest-class.html">AssetIndexRequest</a></li>
+          <li><a href="../basic_api_generated_authorize_send/AuthorizeRequest-class.html">AuthorizeRequest</a></li>
+          <li><a href="../basic_api_generated_balance_send/BalanceRequest-class.html">BalanceRequest</a></li>
+          <li><a href="../basic_api_generated_buy_contract_for_multiple_accounts_send/BuyContractForMultipleAccountsRequest-class.html">BuyContractForMultipleAccountsRequest</a></li>
+          <li><a href="../basic_api_generated_buy_send/BuyRequest-class.html">BuyRequest</a></li>
+          <li><a href="../basic_api_generated_cancel_send/CancelRequest-class.html">CancelRequest</a></li>
+          <li><a href="../basic_api_generated_cashier_payments_send/CashierPaymentsRequest-class.html">CashierPaymentsRequest</a></li>
+          <li><a href="../basic_api_generated_cashier_send/CashierRequest-class.html">CashierRequest</a></li>
+          <li><a href="../basic_api_generated_cashier_withdrawal_cancel_send/CashierWithdrawalCancelRequest-class.html">CashierWithdrawalCancelRequest</a></li>
+          <li><a href="../basic_api_generated_change_email_send/ChangeEmailRequest-class.html">ChangeEmailRequest</a></li>
+          <li><a href="../basic_api_generated_change_password_send/ChangePasswordRequest-class.html">ChangePasswordRequest</a></li>
+          <li><a href="../basic_api_generated_contracts_for_send/ContractsForRequest-class.html">ContractsForRequest</a></li>
+          <li><a href="../basic_api_generated_contract_update_history_send/ContractUpdateHistoryRequest-class.html">ContractUpdateHistoryRequest</a></li>
+          <li><a href="../basic_api_generated_contract_update_send/ContractUpdateRequest-class.html">ContractUpdateRequest</a></li>
+          <li><a href="../basic_api_generated_copy_start_send/CopyStartRequest-class.html">CopyStartRequest</a></li>
+          <li><a href="../basic_api_generated_copy_stop_send/CopyStopRequest-class.html">CopyStopRequest</a></li>
+          <li><a href="../basic_api_generated_copytrading_list_send/CopytradingListRequest-class.html">CopytradingListRequest</a></li>
+          <li><a href="../basic_api_generated_copytrading_statistics_send/CopytradingStatisticsRequest-class.html">CopytradingStatisticsRequest</a></li>
+          <li><a href="../basic_api_generated_crypto_config_send/CryptoConfigRequest-class.html">CryptoConfigRequest</a></li>
+          <li><a href="../basic_api_generated_document_upload_send/DocumentUploadRequest-class.html">DocumentUploadRequest</a></li>
+          <li><a href="../basic_api_generated_economic_calendar_send/EconomicCalendarRequest-class.html">EconomicCalendarRequest</a></li>
+          <li><a href="../basic_api_generated_exchange_rates_send/ExchangeRatesRequest-class.html">ExchangeRatesRequest</a></li>
+          <li><a href="../basic_api_generated_forget_all_send/ForgetAllRequest-class.html">ForgetAllRequest</a></li>
+          <li><a href="../basic_api_generated_forget_send/ForgetRequest-class.html">ForgetRequest</a></li>
+          <li><a href="../basic_api_generated_get_account_status_send/GetAccountStatusRequest-class.html">GetAccountStatusRequest</a></li>
+          <li><a href="../basic_api_generated_get_financial_assessment_send/GetFinancialAssessmentRequest-class.html">GetFinancialAssessmentRequest</a></li>
+          <li><a href="../basic_api_generated_get_limits_send/GetLimitsRequest-class.html">GetLimitsRequest</a></li>
+          <li><a href="../basic_api_generated_get_self_exclusion_send/GetSelfExclusionRequest-class.html">GetSelfExclusionRequest</a></li>
+          <li><a href="../basic_api_generated_get_settings_send/GetSettingsRequest-class.html">GetSettingsRequest</a></li>
+          <li><a href="../basic_api_generated_identity_verification_document_add_send/IdentityVerificationDocumentAddRequest-class.html">IdentityVerificationDocumentAddRequest</a></li>
+          <li><a href="../basic_api_generated_landing_company_details_send/LandingCompanyDetailsRequest-class.html">LandingCompanyDetailsRequest</a></li>
+          <li><a href="../basic_api_generated_landing_company_send/LandingCompanyRequest-class.html">LandingCompanyRequest</a></li>
+          <li><a href="../basic_api_generated_link_wallet_send/LinkWalletRequest-class.html">LinkWalletRequest</a></li>
+          <li><a href="../basic_api_generated_login_history_send/LoginHistoryRequest-class.html">LoginHistoryRequest</a></li>
+          <li><a href="../basic_api_generated_logout_send/LogoutRequest-class.html">LogoutRequest</a></li>
+          <li><a href="../basic_api_generated_mt5_deposit_send/Mt5DepositRequest-class.html">Mt5DepositRequest</a></li>
+          <li><a href="../basic_api_generated_mt5_get_settings_send/Mt5GetSettingsRequest-class.html">Mt5GetSettingsRequest</a></li>
+          <li><a href="../basic_api_generated_mt5_login_list_send/Mt5LoginListRequest-class.html">Mt5LoginListRequest</a></li>
+          <li><a href="../basic_api_generated_mt5_new_account_send/Mt5NewAccountRequest-class.html">Mt5NewAccountRequest</a></li>
+          <li><a href="../basic_api_generated_mt5_password_change_send/Mt5PasswordChangeRequest-class.html">Mt5PasswordChangeRequest</a></li>
+          <li><a href="../basic_api_generated_mt5_password_check_send/Mt5PasswordCheckRequest-class.html">Mt5PasswordCheckRequest</a></li>
+          <li><a href="../basic_api_generated_mt5_password_reset_send/Mt5PasswordResetRequest-class.html">Mt5PasswordResetRequest</a></li>
+          <li><a href="../basic_api_generated_mt5_withdrawal_send/Mt5WithdrawalRequest-class.html">Mt5WithdrawalRequest</a></li>
+          <li><a href="../basic_api_generated_new_account_maltainvest_send/NewAccountMaltainvestRequest-class.html">NewAccountMaltainvestRequest</a></li>
+          <li><a href="../basic_api_generated_new_account_real_send/NewAccountRealRequest-class.html">NewAccountRealRequest</a></li>
+          <li><a href="../basic_api_generated_new_account_virtual_send/NewAccountVirtualRequest-class.html">NewAccountVirtualRequest</a></li>
+          <li><a href="../basic_api_generated_new_account_wallet_send/NewAccountWalletRequest-class.html">NewAccountWalletRequest</a></li>
+          <li><a href="../basic_api_generated_notification_event_send/NotificationEventRequest-class.html">NotificationEventRequest</a></li>
+          <li><a href="../basic_api_generated_oauth_apps_send/OauthAppsRequest-class.html">OauthAppsRequest</a></li>
+          <li><a href="../basic_api_generated_p2p_advert_create_send/P2pAdvertCreateRequest-class.html">P2pAdvertCreateRequest</a></li>
+          <li><a href="../basic_api_generated_p2p_advert_info_send/P2pAdvertInfoRequest-class.html">P2pAdvertInfoRequest</a></li>
+          <li><a href="../basic_api_generated_p2p_advertiser_adverts_send/P2pAdvertiserAdvertsRequest-class.html">P2pAdvertiserAdvertsRequest</a></li>
+          <li><a href="../basic_api_generated_p2p_advertiser_create_send/P2pAdvertiserCreateRequest-class.html">P2pAdvertiserCreateRequest</a></li>
+          <li><a href="../basic_api_generated_p2p_advertiser_info_send/P2pAdvertiserInfoRequest-class.html">P2pAdvertiserInfoRequest</a></li>
+          <li><a href="../basic_api_generated_p2p_advertiser_payment_methods_send/P2pAdvertiserPaymentMethodsRequest-class.html">P2pAdvertiserPaymentMethodsRequest</a></li>
+          <li><a href="../basic_api_generated_p2p_advertiser_relations_send/P2pAdvertiserRelationsRequest-class.html">P2pAdvertiserRelationsRequest</a></li>
+          <li><a href="../basic_api_generated_p2p_advertiser_update_send/P2pAdvertiserUpdateRequest-class.html">P2pAdvertiserUpdateRequest</a></li>
+          <li><a href="../basic_api_generated_p2p_advert_list_send/P2pAdvertListRequest-class.html">P2pAdvertListRequest</a></li>
+          <li><a href="../basic_api_generated_p2p_advert_update_send/P2pAdvertUpdateRequest-class.html">P2pAdvertUpdateRequest</a></li>
+          <li><a href="../basic_api_generated_p2p_chat_create_send/P2pChatCreateRequest-class.html">P2pChatCreateRequest</a></li>
+          <li><a href="../basic_api_generated_p2p_order_cancel_send/P2pOrderCancelRequest-class.html">P2pOrderCancelRequest</a></li>
+          <li><a href="../basic_api_generated_p2p_order_confirm_send/P2pOrderConfirmRequest-class.html">P2pOrderConfirmRequest</a></li>
+          <li><a href="../basic_api_generated_p2p_order_create_send/P2pOrderCreateRequest-class.html">P2pOrderCreateRequest</a></li>
+          <li><a href="../basic_api_generated_p2p_order_dispute_send/P2pOrderDisputeRequest-class.html">P2pOrderDisputeRequest</a></li>
+          <li><a href="../basic_api_generated_p2p_order_info_send/P2pOrderInfoRequest-class.html">P2pOrderInfoRequest</a></li>
+          <li><a href="../basic_api_generated_p2p_order_list_send/P2pOrderListRequest-class.html">P2pOrderListRequest</a></li>
+          <li><a href="../basic_api_generated_p2p_payment_methods_send/P2pPaymentMethodsRequest-class.html">P2pPaymentMethodsRequest</a></li>
+          <li><a href="../basic_api_generated_paymentagent_create_send/PaymentagentCreateRequest-class.html">PaymentagentCreateRequest</a></li>
+          <li><a href="../basic_api_generated_paymentagent_details_send/PaymentagentDetailsRequest-class.html">PaymentagentDetailsRequest</a></li>
+          <li><a href="../basic_api_generated_paymentagent_list_send/PaymentagentListRequest-class.html">PaymentagentListRequest</a></li>
+          <li><a href="../basic_api_generated_paymentagent_transfer_send/PaymentagentTransferRequest-class.html">PaymentagentTransferRequest</a></li>
+          <li><a href="../basic_api_generated_paymentagent_withdraw_send/PaymentagentWithdrawRequest-class.html">PaymentagentWithdrawRequest</a></li>
+          <li><a href="../basic_api_generated_payment_methods_send/PaymentMethodsRequest-class.html">PaymentMethodsRequest</a></li>
+          <li><a href="../basic_api_generated_payout_currencies_send/PayoutCurrenciesRequest-class.html">PayoutCurrenciesRequest</a></li>
+          <li><a href="../basic_api_generated_ping_send/PingRequest-class.html">PingRequest</a></li>
+          <li><a href="../basic_api_generated_portfolio_send/PortfolioRequest-class.html">PortfolioRequest</a></li>
+          <li><a href="../basic_api_generated_profit_table_send/ProfitTableRequest-class.html">ProfitTableRequest</a></li>
+          <li><a href="../basic_api_generated_proposal_open_contract_send/ProposalOpenContractRequest-class.html">ProposalOpenContractRequest</a></li>
+          <li><a href="../basic_api_generated_proposal_send/ProposalRequest-class.html">ProposalRequest</a></li>
+          <li><a href="../basic_api_generated_reality_check_send/RealityCheckRequest-class.html">RealityCheckRequest</a></li>
+          <li><a href="../basic_api_generated_request_report_send/RequestReportRequest-class.html">RequestReportRequest</a></li>
+          <li><a href="../basic_api_generated_reset_password_send/ResetPasswordRequest-class.html">ResetPasswordRequest</a></li>
+          <li><a href="../basic_api_generated_residence_list_send/ResidenceListRequest-class.html">ResidenceListRequest</a></li>
+          <li><a href="../basic_api_generated_revoke_oauth_app_send/RevokeOauthAppRequest-class.html">RevokeOauthAppRequest</a></li>
+          <li><a href="../basic_api_generated_sell_contract_for_multiple_accounts_send/SellContractForMultipleAccountsRequest-class.html">SellContractForMultipleAccountsRequest</a></li>
+          <li><a href="../basic_api_generated_sell_expired_send/SellExpiredRequest-class.html">SellExpiredRequest</a></li>
+          <li><a href="../basic_api_generated_sell_send/SellRequest-class.html">SellRequest</a></li>
+          <li><a href="../basic_api_generated_service_token_send/ServiceTokenRequest-class.html">ServiceTokenRequest</a></li>
+          <li><a href="../basic_api_generated_set_account_currency_send/SetAccountCurrencyRequest-class.html">SetAccountCurrencyRequest</a></li>
+          <li><a href="../basic_api_generated_set_financial_assessment_send/SetFinancialAssessmentRequest-class.html">SetFinancialAssessmentRequest</a></li>
+          <li><a href="../basic_api_generated_set_self_exclusion_send/SetSelfExclusionRequest-class.html">SetSelfExclusionRequest</a></li>
+          <li><a href="../basic_api_generated_set_settings_send/SetSettingsRequest-class.html">SetSettingsRequest</a></li>
+          <li><a href="../basic_api_generated_statement_send/StatementRequest-class.html">StatementRequest</a></li>
+          <li><a href="../basic_api_generated_states_list_send/StatesListRequest-class.html">StatesListRequest</a></li>
+          <li><a href="../basic_api_generated_ticks_history_send/TicksHistoryRequest-class.html">TicksHistoryRequest</a></li>
+          <li><a href="../basic_api_generated_ticks_send/TicksRequest-class.html">TicksRequest</a></li>
+          <li><a href="../basic_api_generated_time_send/TimeRequest-class.html">TimeRequest</a></li>
+          <li><a href="../basic_api_generated_tnc_approval_send/TncApprovalRequest-class.html">TncApprovalRequest</a></li>
+          <li><a href="../basic_api_generated_topup_virtual_send/TopupVirtualRequest-class.html">TopupVirtualRequest</a></li>
+          <li><a href="../basic_api_generated_trading_durations_send/TradingDurationsRequest-class.html">TradingDurationsRequest</a></li>
+          <li><a href="../basic_api_generated_trading_platform_accounts_send/TradingPlatformAccountsRequest-class.html">TradingPlatformAccountsRequest</a></li>
+          <li><a href="../basic_api_generated_trading_platform_deposit_send/TradingPlatformDepositRequest-class.html">TradingPlatformDepositRequest</a></li>
+          <li><a href="../basic_api_generated_trading_platform_investor_password_change_send/TradingPlatformInvestorPasswordChangeRequest-class.html">TradingPlatformInvestorPasswordChangeRequest</a></li>
+          <li><a href="../basic_api_generated_trading_platform_investor_password_reset_send/TradingPlatformInvestorPasswordResetRequest-class.html">TradingPlatformInvestorPasswordResetRequest</a></li>
+          <li><a href="../basic_api_generated_trading_platform_new_account_send/TradingPlatformNewAccountRequest-class.html">TradingPlatformNewAccountRequest</a></li>
+          <li><a href="../basic_api_generated_trading_platform_password_change_send/TradingPlatformPasswordChangeRequest-class.html">TradingPlatformPasswordChangeRequest</a></li>
+          <li><a href="../basic_api_generated_trading_platform_password_reset_send/TradingPlatformPasswordResetRequest-class.html">TradingPlatformPasswordResetRequest</a></li>
+          <li><a href="../basic_api_generated_trading_platform_withdrawal_send/TradingPlatformWithdrawalRequest-class.html">TradingPlatformWithdrawalRequest</a></li>
+          <li><a href="../basic_api_generated_trading_servers_send/TradingServersRequest-class.html">TradingServersRequest</a></li>
+          <li><a href="../basic_api_generated_trading_times_send/TradingTimesRequest-class.html">TradingTimesRequest</a></li>
+          <li><a href="../basic_api_generated_transaction_send/TransactionRequest-class.html">TransactionRequest</a></li>
+          <li><a href="../basic_api_generated_transfer_between_accounts_send/TransferBetweenAccountsRequest-class.html">TransferBetweenAccountsRequest</a></li>
+          <li><a href="../basic_api_generated_verify_email_send/VerifyEmailRequest-class.html">VerifyEmailRequest</a></li>
+          <li><a href="../basic_api_generated_website_status_send/WebsiteStatusRequest-class.html">WebsiteStatusRequest</a></li>
+        </ul></dd>
+
+
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="constructors">
+      <h2>Constructors</h2>
+
+      <dl class="constructor-summary-list">
+        <dt id="Request" class="callable">
+          <span class="name"><a href="../basic_api_request/Request/Request.html">Request</a></span><span class="signature">(<span class="parameter" id="-param-msgType">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">msgType</span>, </span><span class="parameter" id="-param-passthrough"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>, <span class="type-parameter">dynamic</span>&gt;</span>?</span> <span class="parameter-name">passthrough</span>, </span><span class="parameter" id="-param-reqId"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">reqId</span>}</span>)</span>
+        </dt>
+        <dd>
+          Initializes. 
+          <div class="constructor-modifier features">const</div>
+        </dd>
+        <dt id="Request.fromJson" class="callable">
+          <span class="name"><a href="../basic_api_request/Request/Request.fromJson.html">Request.fromJson</a></span><span class="signature">(<span class="parameter" id="fromJson-param-json"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>, <span class="type-parameter">dynamic</span>&gt;</span></span> <span class="parameter-name">json</span></span>)</span>
+        </dt>
+        <dd>
+          Generate an instance from JSON. 
+          <div class="constructor-modifier features">factory</div>
+        </dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="instance-properties">
+      <h2>Properties</h2>
+
+      <dl class="properties">
+        <dt id="hashCode" class="property inherited">
+  <span class="name"><a href="https://pub.dev/documentation/equatable/2.0.3/equatable/Equatable/hashCode.html">hashCode</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> 
+
+</dt>
+<dd class="inherited">
+  The hash code for this object. <a href="https://pub.dev/documentation/equatable/2.0.3/equatable/Equatable/hashCode.html">[...]</a>
+  <div class="features">read-only, inherited</div>
+
+</dd>
+
+        <dt id="msgType" class="property">
+  <span class="name"><a href="../basic_api_request/Request/msgType.html">msgType</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a>?</span> 
+
+</dt>
+<dd>
+  Action name of this request. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="passthrough" class="property">
+  <span class="name"><a href="../basic_api_request/Request/passthrough.html">passthrough</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>, <span class="type-parameter">dynamic</span>&gt;</span>?</span> 
+
+</dt>
+<dd>
+  <code>Optional</code> Used to pass data through the websocket, which may be
+retrieved via the <code>echo_req</code> output field. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="props" class="property">
+  <span class="name"><a href="../basic_api_request/Request/props.html">props</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a>?</span>&gt;</span></span> 
+
+</dt>
+<dd>
+  Override equatable class. 
+  <div class="features">read-only, override</div>
+
+</dd>
+
+        <dt id="reqId" class="property">
+  <span class="name"><a href="../basic_api_request/Request/reqId.html">reqId</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> 
+
+</dt>
+<dd>
+  <code>Optional</code> Used to map request to response. 
+  <div class="features">final</div>
+
+</dd>
+
+        <dt id="runtimeType" class="property inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Type-class.html">Type</a></span> 
+
+</dt>
+<dd class="inherited">
+  A representation of the runtime type of the object. 
+  <div class="features">read-only, inherited</div>
+
+</dd>
+
+        <dt id="stringify" class="property inherited">
+  <span class="name"><a href="https://pub.dev/documentation/equatable/2.0.3/equatable/Equatable/stringify.html">stringify</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> 
+
+</dt>
+<dd class="inherited">
+  If set to <code>true</code>, the <a href="https://pub.dev/documentation/equatable/2.0.3/equatable/Equatable/toString.html">toString</a> method will be overridden to output
+this instance's <a href="../basic_api_request/Request/props.html">props</a>. <a href="https://pub.dev/documentation/equatable/2.0.3/equatable/Equatable/stringify.html">[...]</a>
+  <div class="features">read-only, inherited</div>
+
+</dd>
+
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="instance-methods">
+      <h2>Methods</h2>
+      <dl class="callables">
+        <dt id="copyWith" class="callable">
+  <span class="name"><a href="../basic_api_request/Request/copyWith.html">copyWith</a></span><span class="signature">(<wbr><span class="parameter" id="copyWith-param-passthrough">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>, <span class="type-parameter">dynamic</span>&gt;</span>?</span> <span class="parameter-name">passthrough</span>, </span><span class="parameter" id="copyWith-param-reqId"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">reqId</span>}</span>)
+    <span class="returntype parameter">&#8594; <a href="../basic_api_request/Request-class.html">Request</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Generate a copy of instance with given parameters. 
+  
+
+</dd>
+
+        <dt id="noSuchMethod" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></span><span class="signature">(<wbr><span class="parameter" id="noSuchMethod-param-invocation"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Invocation-class.html">Invocation</a></span> <span class="parameter-name">invocation</span></span>)
+    <span class="returntype parameter">&#8594; dynamic</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Invoked when a non-existent method or property is accessed. <a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">[...]</a>
+  <div class="features">inherited</div>
+
+</dd>
+
+        <dt id="toJson" class="callable">
+  <span class="name"><a href="../basic_api_request/Request/toJson.html">toJson</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>, <span class="type-parameter">dynamic</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Converts an instance to JSON. 
+  
+
+</dd>
+
+        <dt id="toString" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/equatable/2.0.3/equatable/Equatable/toString.html">toString</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  A string representation of this object. <a href="https://pub.dev/documentation/equatable/2.0.3/equatable/Equatable/toString.html">[...]</a>
+  <div class="features">inherited</div>
+
+</dd>
+
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor inherited" id="operators">
+      <h2>Operators</h2>
+      <dl class="callables">
+        <dt id="operator ==" class="callable inherited">
+  <span class="name"><a href="https://pub.dev/documentation/equatable/2.0.3/equatable/Equatable/operator_equals.html">operator ==</a></span><span class="signature">(<wbr><span class="parameter" id="==-param-other"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">other</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  The equality operator. <a href="https://pub.dev/documentation/equatable/2.0.3/equatable/Equatable/operator_equals.html">[...]</a>
+  <div class="features">inherited</div>
+
+</dd>
+
+      </dl>
+    </section>
+
+
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+  <li><a href="../index.html">flutter_deriv_api</a></li>
+  <li><a href="../basic_api_request/basic_api_request-library.html">request</a></li>
+  <li class="self-crumb">Request class</li>
+</ol>
+
+
+    <h5>request library</h5>
+    <ol>
+  <li class="section-title"><a href="../basic_api_request/basic_api_request-library.html#classes">Classes</a></li>
+  <li><a href="../basic_api_request/Request-class.html">Request</a></li>
+
+
+
+
+
+
+
+
+</ol>
+
+  </div>
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+    <ol>
+
+    <li class="section-title"><a href="../basic_api_request/Request-class.html#constructors">Constructors</a></li>
+    <li><a href="../basic_api_request/Request/Request.html">Request</a></li>
+    <li><a href="../basic_api_request/Request/Request.fromJson.html">fromJson</a></li>
+
+
+    <li class="section-title">
+      <a href="../basic_api_request/Request-class.html#instance-properties">Properties</a>
+    </li>
+    <li class="inherited"><a href="https://pub.dev/documentation/equatable/2.0.3/equatable/Equatable/hashCode.html">hashCode</a></li>
+    <li><a href="../basic_api_request/Request/msgType.html">msgType</a></li>
+    <li><a href="../basic_api_request/Request/passthrough.html">passthrough</a></li>
+    <li><a href="../basic_api_request/Request/props.html">props</a></li>
+    <li><a href="../basic_api_request/Request/reqId.html">reqId</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></li>
+    <li class="inherited"><a href="https://pub.dev/documentation/equatable/2.0.3/equatable/Equatable/stringify.html">stringify</a></li>
+
+    <li class="section-title"><a href="../basic_api_request/Request-class.html#instance-methods">Methods</a></li>
+    <li><a href="../basic_api_request/Request/copyWith.html">copyWith</a></li>
+    <li class="inherited"><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></li>
+    <li><a href="../basic_api_request/Request/toJson.html">toJson</a></li>
+    <li class="inherited"><a href="https://pub.dev/documentation/equatable/2.0.3/equatable/Equatable/toString.html">toString</a></li>
+
+    <li class="section-title inherited"><a href="../basic_api_request/Request-class.html#operators">Operators</a></li>
+    <li class="inherited"><a href="https://pub.dev/documentation/equatable/2.0.3/equatable/Equatable/operator_equals.html">operator ==</a></li>
+
+
+
+
+</ol>
+
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    flutter_deriv_api
+      0.0.1
+  </span>
+
+  
+</footer>
+
+
+
+<script src="../static-assets/highlight.pack.js?v1"></script>
+<script src="../static-assets/script.js?v1"></script>
+
+
+
+</body>
+
+</html>
+

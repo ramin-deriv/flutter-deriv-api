@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the getGeneratedResponse function from the response_mapper.helper library, for the Dart programming language.">
+  <title>getGeneratedResponse function - response_mapper.helper library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../static-assets/styles.css?v1">
+  <link rel="icon" href="../static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href="../"
+      data-using-base-href="false">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../index.html">flutter_deriv_api</a></li>
+    <li><a href="../basic_api_helper_response_mapper.helper/basic_api_helper_response_mapper.helper-library.html">response_mapper.helper</a></li>
+    <li class="self-crumb">getGeneratedResponse function</li>
+  </ol>
+  <div class="self-name">getGeneratedResponse</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+
+  <div id="dartdoc-main-content" class="main-content">
+      <div>
+<h1><span class="kind-function">getGeneratedResponse</span> function 
+    <a href="https://dart.dev/null-safety" class="feature feature-null-safety" title="Supports the null safety language feature.">Null safety</a>
+ 
+</h1></div>
+
+    <section class="multi-line-signature">
+        
+
+<span class="returntype"><a href="../basic_api_response/Response-class.html">Response</a></span>
+<span class="name ">getGeneratedResponse</span>(<wbr><ol class="parameter-list"><li><span class="parameter" id="getGeneratedResponse-param-responseMap"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>, <span class="type-parameter">dynamic</span>&gt;</span></span> <span class="parameter-name">responseMap</span></span></li>
+</ol>)
+
+    </section>
+    
+<section class="desc markdown">
+  <p>A function that create a sub-type of <a href="../basic_api_response/Response-class.html">Response</a> based on
+<code>responseMap</code>'s 'msg_type'</p>
+</section>
+
+
+    
+<section class="summary source-code" id="source">
+  <h2><span>Implementation</span></h2>
+  <pre class="language-dart"><code class="language-dart">Response getGeneratedResponse(Map&lt;String, dynamic&gt; responseMap) {
+  switch (responseMap[&#39;msg_type&#39;]) {
+    case &#39;account_closure&#39;:
+      return AccountClosureResponse.fromJson(responseMap);
+    case &#39;account_security&#39;:
+      return AccountSecurityResponse.fromJson(responseMap);
+    case &#39;account_statistics&#39;:
+      return AccountStatisticsResponse.fromJson(responseMap);
+    case &#39;active_symbols&#39;:
+      return ActiveSymbolsResponse.fromJson(responseMap);
+    case &#39;affiliate_account_add&#39;:
+      return AffiliateAccountAddResponse.fromJson(responseMap);
+    case &#39;api_token&#39;:
+      return ApiTokenResponse.fromJson(responseMap);
+    case &#39;app_delete&#39;:
+      return AppDeleteResponse.fromJson(responseMap);
+    case &#39;app_get&#39;:
+      return AppGetResponse.fromJson(responseMap);
+    case &#39;app_list&#39;:
+      return AppListResponse.fromJson(responseMap);
+    case &#39;app_markup_details&#39;:
+      return AppMarkupDetailsResponse.fromJson(responseMap);
+    case &#39;app_register&#39;:
+      return AppRegisterResponse.fromJson(responseMap);
+    case &#39;app_update&#39;:
+      return AppUpdateResponse.fromJson(responseMap);
+    case &#39;asset_index&#39;:
+      return AssetIndexResponse.fromJson(responseMap);
+    case &#39;authorize&#39;:
+      return AuthorizeResponse.fromJson(responseMap);
+    case &#39;balance&#39;:
+      return BalanceResponse.fromJson(responseMap);
+    case &#39;buy_contract_for_multiple_accounts&#39;:
+      return BuyContractForMultipleAccountsResponse.fromJson(responseMap);
+    case &#39;buy&#39;:
+      return BuyResponse.fromJson(responseMap);
+    case &#39;cancel&#39;:
+      return CancelResponse.fromJson(responseMap);
+    case &#39;cashier_payments&#39;:
+      return CashierPaymentsResponse.fromJson(responseMap);
+    case &#39;cashier&#39;:
+      return CashierResponse.fromJson(responseMap);
+    case &#39;cashier_withdrawal_cancel&#39;:
+      return CashierWithdrawalCancelResponse.fromJson(responseMap);
+    case &#39;change_email&#39;:
+      return ChangeEmailResponse.fromJson(responseMap);
+    case &#39;change_password&#39;:
+      return ChangePasswordResponse.fromJson(responseMap);
+    case &#39;contract_update_history&#39;:
+      return ContractUpdateHistoryResponse.fromJson(responseMap);
+    case &#39;contract_update&#39;:
+      return ContractUpdateResponse.fromJson(responseMap);
+    case &#39;contracts_for&#39;:
+      return ContractsForResponse.fromJson(responseMap);
+    case &#39;copy_start&#39;:
+      return CopyStartResponse.fromJson(responseMap);
+    case &#39;copy_stop&#39;:
+      return CopyStopResponse.fromJson(responseMap);
+    case &#39;copytrading_list&#39;:
+      return CopytradingListResponse.fromJson(responseMap);
+    case &#39;copytrading_statistics&#39;:
+      return CopytradingStatisticsResponse.fromJson(responseMap);
+    case &#39;crypto_config&#39;:
+      return CryptoConfigResponse.fromJson(responseMap);
+    case &#39;document_upload&#39;:
+      return DocumentUploadResponse.fromJson(responseMap);
+    case &#39;economic_calendar&#39;:
+      return EconomicCalendarResponse.fromJson(responseMap);
+    case &#39;exchange_rates&#39;:
+      return ExchangeRatesResponse.fromJson(responseMap);
+    case &#39;forget_all&#39;:
+      return ForgetAllResponse.fromJson(responseMap);
+    case &#39;forget&#39;:
+      return ForgetResponse.fromJson(responseMap);
+    case &#39;get_account_status&#39;:
+      return GetAccountStatusResponse.fromJson(responseMap);
+    case &#39;get_financial_assessment&#39;:
+      return GetFinancialAssessmentResponse.fromJson(responseMap);
+    case &#39;get_limits&#39;:
+      return GetLimitsResponse.fromJson(responseMap);
+    case &#39;get_self_exclusion&#39;:
+      return GetSelfExclusionResponse.fromJson(responseMap);
+    case &#39;get_settings&#39;:
+      return GetSettingsResponse.fromJson(responseMap);
+    case &#39;identity_verification_document_add&#39;:
+      return IdentityVerificationDocumentAddResponse.fromJson(responseMap);
+    case &#39;landing_company_details&#39;:
+      return LandingCompanyDetailsResponse.fromJson(responseMap);
+    case &#39;landing_company&#39;:
+      return LandingCompanyResponse.fromJson(responseMap);
+    case &#39;link_wallet&#39;:
+      return LinkWalletResponse.fromJson(responseMap);
+    case &#39;login_history&#39;:
+      return LoginHistoryResponse.fromJson(responseMap);
+    case &#39;logout&#39;:
+      return LogoutResponse.fromJson(responseMap);
+    case &#39;mt5_deposit&#39;:
+      return Mt5DepositResponse.fromJson(responseMap);
+    case &#39;mt5_get_settings&#39;:
+      return Mt5GetSettingsResponse.fromJson(responseMap);
+    case &#39;mt5_login_list&#39;:
+      return Mt5LoginListResponse.fromJson(responseMap);
+    case &#39;mt5_new_account&#39;:
+      return Mt5NewAccountResponse.fromJson(responseMap);
+    case &#39;mt5_password_change&#39;:
+      return Mt5PasswordChangeResponse.fromJson(responseMap);
+    case &#39;mt5_password_check&#39;:
+      return Mt5PasswordCheckResponse.fromJson(responseMap);
+    case &#39;mt5_password_reset&#39;:
+      return Mt5PasswordResetResponse.fromJson(responseMap);
+    case &#39;mt5_withdrawal&#39;:
+      return Mt5WithdrawalResponse.fromJson(responseMap);
+    case &#39;new_account_maltainvest&#39;:
+      return NewAccountMaltainvestResponse.fromJson(responseMap);
+    case &#39;new_account_real&#39;:
+      return NewAccountRealResponse.fromJson(responseMap);
+    case &#39;new_account_virtual&#39;:
+      return NewAccountVirtualResponse.fromJson(responseMap);
+    case &#39;new_account_wallet&#39;:
+      return NewAccountWalletResponse.fromJson(responseMap);
+    case &#39;notification_event&#39;:
+      return NotificationEventResponse.fromJson(responseMap);
+    case &#39;oauth_apps&#39;:
+      return OauthAppsResponse.fromJson(responseMap);
+    case &#39;p2p_advert_create&#39;:
+      return P2pAdvertCreateResponse.fromJson(responseMap);
+    case &#39;p2p_advert_info&#39;:
+      return P2pAdvertInfoResponse.fromJson(responseMap);
+    case &#39;p2p_advert_list&#39;:
+      return P2pAdvertListResponse.fromJson(responseMap);
+    case &#39;p2p_advert_update&#39;:
+      return P2pAdvertUpdateResponse.fromJson(responseMap);
+    case &#39;p2p_advertiser_adverts&#39;:
+      return P2pAdvertiserAdvertsResponse.fromJson(responseMap);
+    case &#39;p2p_advertiser_create&#39;:
+      return P2pAdvertiserCreateResponse.fromJson(responseMap);
+    case &#39;p2p_advertiser_info&#39;:
+      return P2pAdvertiserInfoResponse.fromJson(responseMap);
+    case &#39;p2p_advertiser_payment_methods&#39;:
+      return P2pAdvertiserPaymentMethodsResponse.fromJson(responseMap);
+    case &#39;p2p_advertiser_relations&#39;:
+      return P2pAdvertiserRelationsResponse.fromJson(responseMap);
+    case &#39;p2p_advertiser_update&#39;:
+      return P2pAdvertiserUpdateResponse.fromJson(responseMap);
+    case &#39;p2p_chat_create&#39;:
+      return P2pChatCreateResponse.fromJson(responseMap);
+    case &#39;p2p_order_cancel&#39;:
+      return P2pOrderCancelResponse.fromJson(responseMap);
+    case &#39;p2p_order_confirm&#39;:
+      return P2pOrderConfirmResponse.fromJson(responseMap);
+    case &#39;p2p_order_create&#39;:
+      return P2pOrderCreateResponse.fromJson(responseMap);
+    case &#39;p2p_order_dispute&#39;:
+      return P2pOrderDisputeResponse.fromJson(responseMap);
+    case &#39;p2p_order_info&#39;:
+      return P2pOrderInfoResponse.fromJson(responseMap);
+    case &#39;p2p_order_list&#39;:
+      return P2pOrderListResponse.fromJson(responseMap);
+    case &#39;p2p_payment_methods&#39;:
+      return P2pPaymentMethodsResponse.fromJson(responseMap);
+    case &#39;payment_methods&#39;:
+      return PaymentMethodsResponse.fromJson(responseMap);
+    case &#39;paymentagent_create&#39;:
+      return PaymentagentCreateResponse.fromJson(responseMap);
+    case &#39;paymentagent_details&#39;:
+      return PaymentagentDetailsResponse.fromJson(responseMap);
+    case &#39;paymentagent_list&#39;:
+      return PaymentagentListResponse.fromJson(responseMap);
+    case &#39;paymentagent_transfer&#39;:
+      return PaymentagentTransferResponse.fromJson(responseMap);
+    case &#39;paymentagent_withdraw&#39;:
+      return PaymentagentWithdrawResponse.fromJson(responseMap);
+    case &#39;payout_currencies&#39;:
+      return PayoutCurrenciesResponse.fromJson(responseMap);
+    case &#39;ping&#39;:
+      return PingResponse.fromJson(responseMap);
+    case &#39;portfolio&#39;:
+      return PortfolioResponse.fromJson(responseMap);
+    case &#39;profit_table&#39;:
+      return ProfitTableResponse.fromJson(responseMap);
+    case &#39;proposal_open_contract&#39;:
+      return ProposalOpenContractResponse.fromJson(responseMap);
+    case &#39;proposal&#39;:
+      return ProposalResponse.fromJson(responseMap);
+    case &#39;reality_check&#39;:
+      return RealityCheckResponse.fromJson(responseMap);
+    case &#39;request_report&#39;:
+      return RequestReportResponse.fromJson(responseMap);
+    case &#39;reset_password&#39;:
+      return ResetPasswordResponse.fromJson(responseMap);
+    case &#39;residence_list&#39;:
+      return ResidenceListResponse.fromJson(responseMap);
+    case &#39;revoke_oauth_app&#39;:
+      return RevokeOauthAppResponse.fromJson(responseMap);
+    case &#39;sell_contract_for_multiple_accounts&#39;:
+      return SellContractForMultipleAccountsResponse.fromJson(responseMap);
+    case &#39;sell_expired&#39;:
+      return SellExpiredResponse.fromJson(responseMap);
+    case &#39;sell&#39;:
+      return SellResponse.fromJson(responseMap);
+    case &#39;service_token&#39;:
+      return ServiceTokenResponse.fromJson(responseMap);
+    case &#39;set_account_currency&#39;:
+      return SetAccountCurrencyResponse.fromJson(responseMap);
+    case &#39;set_financial_assessment&#39;:
+      return SetFinancialAssessmentResponse.fromJson(responseMap);
+    case &#39;set_self_exclusion&#39;:
+      return SetSelfExclusionResponse.fromJson(responseMap);
+    case &#39;set_settings&#39;:
+      return SetSettingsResponse.fromJson(responseMap);
+    case &#39;statement&#39;:
+      return StatementResponse.fromJson(responseMap);
+    case &#39;states_list&#39;:
+      return StatesListResponse.fromJson(responseMap);
+    case &#39;history&#39;:
+      return TicksHistoryResponse.fromJson(responseMap);
+    case &#39;tick&#39;:
+      return TicksResponse.fromJson(responseMap);
+    case &#39;time&#39;:
+      return TimeResponse.fromJson(responseMap);
+    case &#39;tnc_approval&#39;:
+      return TncApprovalResponse.fromJson(responseMap);
+    case &#39;topup_virtual&#39;:
+      return TopupVirtualResponse.fromJson(responseMap);
+    case &#39;trading_durations&#39;:
+      return TradingDurationsResponse.fromJson(responseMap);
+    case &#39;trading_platform_accounts&#39;:
+      return TradingPlatformAccountsResponse.fromJson(responseMap);
+    case &#39;trading_platform_deposit&#39;:
+      return TradingPlatformDepositResponse.fromJson(responseMap);
+    case &#39;trading_platform_investor_password_change&#39;:
+      return TradingPlatformInvestorPasswordChangeResponse.fromJson(
+          responseMap);
+    case &#39;trading_platform_investor_password_reset&#39;:
+      return TradingPlatformInvestorPasswordResetResponse.fromJson(responseMap);
+    case &#39;trading_platform_new_account&#39;:
+      return TradingPlatformNewAccountResponse.fromJson(responseMap);
+    case &#39;trading_platform_password_change&#39;:
+      return TradingPlatformPasswordChangeResponse.fromJson(responseMap);
+    case &#39;trading_platform_password_reset&#39;:
+      return TradingPlatformPasswordResetResponse.fromJson(responseMap);
+    case &#39;trading_platform_withdrawal&#39;:
+      return TradingPlatformWithdrawalResponse.fromJson(responseMap);
+    case &#39;trading_servers&#39;:
+      return TradingServersResponse.fromJson(responseMap);
+    case &#39;trading_times&#39;:
+      return TradingTimesResponse.fromJson(responseMap);
+    case &#39;transaction&#39;:
+      return TransactionResponse.fromJson(responseMap);
+    case &#39;transfer_between_accounts&#39;:
+      return TransferBetweenAccountsResponse.fromJson(responseMap);
+    case &#39;verify_email&#39;:
+      return VerifyEmailResponse.fromJson(responseMap);
+    case &#39;website_status&#39;:
+      return WebsiteStatusResponse.fromJson(responseMap);
+
+    default:
+      return Response.fromJson(responseMap);
+  }
+}</code></pre>
+</section>
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+  <li><a href="../index.html">flutter_deriv_api</a></li>
+  <li><a href="../basic_api_helper_response_mapper.helper/basic_api_helper_response_mapper.helper-library.html">response_mapper.helper</a></li>
+  <li class="self-crumb">getGeneratedResponse function</li>
+</ol>
+
+
+    <h5>response_mapper.helper library</h5>
+    <ol>
+
+
+
+
+
+  <li class="section-title"><a href="../basic_api_helper_response_mapper.helper/basic_api_helper_response_mapper.helper-library.html#functions">Functions</a></li>
+  <li><a href="../basic_api_helper_response_mapper.helper/getGeneratedResponse.html">getGeneratedResponse</a></li>
+
+
+
+</ol>
+
+  </div><!--/.sidebar-offcanvas-left-->
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    flutter_deriv_api
+      0.0.1
+  </span>
+
+  
+</footer>
+
+
+
+<script src="../static-assets/highlight.pack.js?v1"></script>
+<script src="../static-assets/script.js?v1"></script>
+
+
+
+</body>
+
+</html>
+
